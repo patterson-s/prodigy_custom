@@ -1,0 +1,4 @@
+# Ignore all files in these directories
+data/
+models/en_core_web_lg_with_ruler/
+models/en_core_web_lg_with_ruler_manual/

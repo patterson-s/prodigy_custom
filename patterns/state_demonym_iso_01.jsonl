@@ -1,0 +1,683 @@
+{"label":"GPE","pattern":"Afghanistan","state":"Afghanistan","ISO_Code":"AFG"}
+{"label":"GPE","pattern":"Afghans","state":"Afghanistan","ISO_Code":"AFG"}
+{"label":"GPE","pattern":"Afghan","state":"Afghanistan","ISO_Code":"AFG"}
+{"label":"GPE","pattern":"Albania","state":"Albania","ISO_Code":"ALB"}
+{"label":"GPE","pattern":"Albanians","state":"Albania","ISO_Code":"ALB"}
+{"label":"GPE","pattern":"Albanian","state":"Albania","ISO_Code":"ALB"}
+{"label":"GPE","pattern":"Algeria","state":"Algeria","ISO_Code":"DZA"}
+{"label":"GPE","pattern":"Algerians","state":"Algeria","ISO_Code":"DZA"}
+{"label":"GPE","pattern":"Algerian","state":"Algeria","ISO_Code":"DZA"}
+{"label":"GPE","pattern":"Andorra","state":"Andorra","ISO_Code":"AND"}
+{"label":"GPE","pattern":"Andorrans","state":"Andorra","ISO_Code":"AND"}
+{"label":"GPE","pattern":"Andorran","state":"Andorra","ISO_Code":"AND"}
+{"label":"GPE","pattern":"Angola","state":"Angola","ISO_Code":"AGO"}
+{"label":"GPE","pattern":"Angolans","state":"Angola","ISO_Code":"AGO"}
+{"label":"GPE","pattern":"Angolan","state":"Angola","ISO_Code":"AGO"}
+{"label":"GPE","pattern":"Antigua","state":"Antigua","ISO_Code":"ATG"}
+{"label":"GPE","pattern":"Antiguans","state":"Antigua","ISO_Code":"ATG"}
+{"label":"GPE","pattern":"Antiguan","state":"Antigua","ISO_Code":"ATG"}
+{"label":"GPE","pattern":"Armenia","state":"Armenia","ISO_Code":"ARM"}
+{"label":"GPE","pattern":"Armenians","state":"Armenia","ISO_Code":"ARM"}
+{"label":"GPE","pattern":"Armenian","state":"Armenia","ISO_Code":"ARM"}
+{"label":"GPE","pattern":"Australia","state":"Australia","ISO_Code":"AUS"}
+{"label":"GPE","pattern":"Australians","state":"Australia","ISO_Code":"AUS"}
+{"label":"GPE","pattern":"Australian","state":"Australia","ISO_Code":"AUS"}
+{"label":"GPE","pattern":"Austria","state":"Austria","ISO_Code":"AUT"}
+{"label":"GPE","pattern":"Austrians","state":"Austria","ISO_Code":"AUT"}
+{"label":"GPE","pattern":"Austrian","state":"Austria","ISO_Code":"AUT"}
+{"label":"GPE","pattern":"Belize","state":"Belize","ISO_Code":"BLZ"}
+{"label":"GPE","pattern":"Belizeans","state":"Belize","ISO_Code":"BLZ"}
+{"label":"GPE","pattern":"Belizean","state":"Belize","ISO_Code":"BLZ"}
+{"label":"GPE","pattern":"Bolivia","state":"Bolivia","ISO_Code":"BOL"}
+{"label":"GPE","pattern":"Bolivians","state":"Bolivia","ISO_Code":"BOL"}
+{"label":"GPE","pattern":"Bolivian","state":"Bolivia","ISO_Code":"BOL"}
+{"label":"GPE","pattern":"Bosnia and Herzegovina","state":"Bosnia and Herzegovina","ISO_Code":"BIH"}
+{"label":"GPE","pattern":"Bosnians and Herzegovinians","state":"Bosnia and Herzegovina","ISO_Code":"BIH"}
+{"label":"GPE","pattern":"Bosnians and Herzegovinian","state":"Bosnia and Herzegovina","ISO_Code":"BIH"}
+{"label":"GPE","pattern":"Brunei","state":"Brunei","ISO_Code":"BRN"}
+{"label":"GPE","pattern":"Bruneians","state":"Brunei","ISO_Code":"BRN"}
+{"label":"GPE","pattern":"Bruneian","state":"Brunei","ISO_Code":"BRN"}
+{"label":"GPE","pattern":"Bulgaria","state":"Bulgaria","ISO_Code":"BGR"}
+{"label":"GPE","pattern":"Bulgarians","state":"Bulgaria","ISO_Code":"BGR"}
+{"label":"GPE","pattern":"Bulgarian","state":"Bulgaria","ISO_Code":"BGR"}
+{"label":"GPE","pattern":"Burundi","state":"Burundi","ISO_Code":"BDI"}
+{"label":"GPE","pattern":"Burundians","state":"Burundi","ISO_Code":"BDI"}
+{"label":"GPE","pattern":"Burundian","state":"Burundi","ISO_Code":"BDI"}
+{"label":"GPE","pattern":"Cambodia","state":"Cambodia","ISO_Code":"KHM"}
+{"label":"GPE","pattern":"Cambodians","state":"Cambodia","ISO_Code":"KHM"}
+{"label":"GPE","pattern":"Cambodian","state":"Cambodia","ISO_Code":"KHM"}
+{"label":"GPE","pattern":"Chile","state":"Chile","ISO_Code":"CHL"}
+{"label":"GPE","pattern":"Chileans","state":"Chile","ISO_Code":"CHL"}
+{"label":"GPE","pattern":"Chilean","state":"Chile","ISO_Code":"CHL"}
+{"label":"GPE","pattern":"Colombia","state":"Colombia","ISO_Code":"COL"}
+{"label":"GPE","pattern":"Colombians","state":"Colombia","ISO_Code":"COL"}
+{"label":"GPE","pattern":"Colombian","state":"Colombia","ISO_Code":"COL"}
+{"label":"GPE","pattern":"Costa Rica","state":"Costa Rica","ISO_Code":"CRI"}
+{"label":"GPE","pattern":"Costa Ricans","state":"Costa Rica","ISO_Code":"CRI"}
+{"label":"GPE","pattern":"Costa Rican","state":"Costa Rica","ISO_Code":"CRI"}
+{"label":"GPE","pattern":"Croatia","state":"Croatia","ISO_Code":"HRV"}
+{"label":"GPE","pattern":"Croatians","state":"Croatia","ISO_Code":"HRV"}
+{"label":"GPE","pattern":"Croatian","state":"Croatia","ISO_Code":"HRV"}
+{"label":"GPE","pattern":"Cuba","state":"Cuba","ISO_Code":"CUB"}
+{"label":"GPE","pattern":"Cubans","state":"Cuba","ISO_Code":"CUB"}
+{"label":"GPE","pattern":"Cuban","state":"Cuba","ISO_Code":"CUB"}
+{"label":"GPE","pattern":"Czech Republic","state":"Czechia","ISO_Code":"CZE"}
+{"label":"GPE","pattern":"Czechs","state":"Czechia","ISO_Code":"CZE"}
+{"label":"GPE","pattern":"Dominican Republic","state":"Dominican Republic","ISO_Code":"DOM"}
+{"label":"GPE","pattern":"Dominicans","state":"Dominican Republic","ISO_Code":"DOM"}
+{"label":"GPE","pattern":"Dominican","state":"Dominican Republic","ISO_Code":"DOM"}
+{"label":"GPE","pattern":"El Salvador","state":"El Salvador","ISO_Code":"SLV"}
+{"label":"GPE","pattern":"Salvadorans","state":"El Salvador","ISO_Code":"SLV"}
+{"label":"GPE","pattern":"Salvadoran","state":"El Salvador","ISO_Code":"SLV"}
+{"label":"GPE","pattern":"Eritrea","state":"Eritrea","ISO_Code":"ERI"}
+{"label":"GPE","pattern":"Eritreans","state":"Eritrea","ISO_Code":"ERI"}
+{"label":"GPE","pattern":"Eritrean","state":"Eritrea","ISO_Code":"ERI"}
+{"label":"GPE","pattern":"Estonia","state":"Estonia","ISO_Code":"EST"}
+{"label":"GPE","pattern":"Estonians","state":"Estonia","ISO_Code":"EST"}
+{"label":"GPE","pattern":"Estonian","state":"Estonia","ISO_Code":"EST"}
+{"label":"GPE","pattern":"Ethiopia","state":"Ethiopia","ISO_Code":"ETH"}
+{"label":"GPE","pattern":"Ethiopians","state":"Ethiopia","ISO_Code":"ETH"}
+{"label":"GPE","pattern":"Ethiopian","state":"Ethiopia","ISO_Code":"ETH"}
+{"label":"GPE","pattern":"Fiji","state":"Fiji","ISO_Code":"FJI"}
+{"label":"GPE","pattern":"Fijian","state":"Fiji","ISO_Code":"FJI"}
+{"label":"GPE","pattern":"Fijindians","state":"Fiji","ISO_Code":"FJI"}
+{"label":"GPE","pattern":"Fijindian","state":"Fiji","ISO_Code":"FJI"}
+{"label":"GPE","pattern":"Gambia","state":"Gambia","ISO_Code":"GMB"}
+{"label":"GPE","pattern":"Gambians","state":"Gambia","ISO_Code":"GMB"}
+{"label":"GPE","pattern":"Gambian","state":"Gambia","ISO_Code":"GMB"}
+{"label":"GPE","pattern":"Georgia","state":"Georgia","ISO_Code":"GEO"}
+{"label":"GPE","pattern":"Georgians","state":"Georgia","ISO_Code":"GEO"}
+{"label":"GPE","pattern":"Georgian","state":"Georgia","ISO_Code":"GEO"}
+{"label":"GPE","pattern":"Germany","state":"Germany","ISO_Code":"DEU"}
+{"label":"GPE","pattern":"Germans","state":"Germany","ISO_Code":"DEU"}
+{"label":"GPE","pattern":"German","state":"Germany","ISO_Code":"DEU"}
+{"label":"GPE","pattern":"Guatemala","state":"Guatemala","ISO_Code":"GTM"}
+{"label":"GPE","pattern":"Guatemalans","state":"Guatemala","ISO_Code":"GTM"}
+{"label":"GPE","pattern":"Guatemalan","state":"Guatemala","ISO_Code":"GTM"}
+{"label":"GPE","pattern":"Guinea","state":"Guinea","ISO_Code":"GIN"}
+{"label":"GPE","pattern":"Guineans","state":"Guinea","ISO_Code":"GIN"}
+{"label":"GPE","pattern":"Guinean","state":"Guinea","ISO_Code":"GIN"}
+{"label":"GPE","pattern":"Haiti","state":"Haiti","ISO_Code":"HTI"}
+{"label":"GPE","pattern":"Haitians","state":"Haiti","ISO_Code":"HTI"}
+{"label":"GPE","pattern":"Haitian","state":"Haiti","ISO_Code":"HTI"}
+{"label":"GPE","pattern":"Honduras","state":"Honduras","ISO_Code":"HND"}
+{"label":"GPE","pattern":"Hondurans","state":"Honduras","ISO_Code":"HND"}
+{"label":"GPE","pattern":"Honduran","state":"Honduras","ISO_Code":"HND"}
+{"label":"GPE","pattern":"Hungary","state":"Hungary","ISO_Code":"HUN"}
+{"label":"GPE","pattern":"Hungarians","state":"Hungary","ISO_Code":"HUN"}
+{"label":"GPE","pattern":"Hungarian","state":"Hungary","ISO_Code":"HUN"}
+{"label":"GPE","pattern":"India","state":"India","ISO_Code":"IND"}
+{"label":"GPE","pattern":"Indians","state":"India","ISO_Code":"IND"}
+{"label":"GPE","pattern":"Indian","state":"India","ISO_Code":"IND"}
+{"label":"GPE","pattern":"Indonesia","state":"Indonesia","ISO_Code":"IDN"}
+{"label":"GPE","pattern":"Indonesians","state":"Indonesia","ISO_Code":"IDN"}
+{"label":"GPE","pattern":"Indonesian","state":"Indonesia","ISO_Code":"IDN"}
+{"label":"GPE","pattern":"Jamaica","state":"Jamaica","ISO_Code":"JAM"}
+{"label":"GPE","pattern":"Jamaicans","state":"Jamaica","ISO_Code":"JAM"}
+{"label":"GPE","pattern":"Jamaican","state":"Jamaica","ISO_Code":"JAM"}
+{"label":"GPE","pattern":"Kenya","state":"Kenya","ISO_Code":"KEN"}
+{"label":"GPE","pattern":"Kenyans","state":"Kenya","ISO_Code":"KEN"}
+{"label":"GPE","pattern":"Kenyan","state":"Kenya","ISO_Code":"KEN"}
+{"label":"GPE","pattern":"Kiribati","state":"Kiribati","ISO_Code":"KIR"}
+{"label":"GPE","pattern":"Kiribatians","state":"Kiribati","ISO_Code":"KIR"}
+{"label":"GPE","pattern":"Kiribatian","state":"Kiribati","ISO_Code":"KIR"}
+{"label":"GPE","pattern":"Kosovo","state":"Kosovo","ISO_Code":"KOS"}
+{"label":"GPE","pattern":"Kosovars","state":"Kosovo","ISO_Code":"KOS"}
+{"label":"GPE","pattern":"Kosovar","state":"Kosovo","ISO_Code":"KOS"}
+{"label":"GPE","pattern":"Latvia","state":"Latvia","ISO_Code":"LVA"}
+{"label":"GPE","pattern":"Latvians","state":"Latvia","ISO_Code":"LVA"}
+{"label":"GPE","pattern":"Latvian","state":"Latvia","ISO_Code":"LVA"}
+{"label":"GPE","pattern":"Liberia","state":"Liberia","ISO_Code":"LBR"}
+{"label":"GPE","pattern":"Liberians","state":"Liberia","ISO_Code":"LBR"}
+{"label":"GPE","pattern":"Liberian","state":"Liberia","ISO_Code":"LBR"}
+{"label":"GPE","pattern":"Libya","state":"Libya","ISO_Code":"LBY"}
+{"label":"GPE","pattern":"Libyans","state":"Libya","ISO_Code":"LBY"}
+{"label":"GPE","pattern":"Libyan","state":"Libya","ISO_Code":"LBY"}
+{"label":"GPE","pattern":"Lithuania","state":"Lithuania","ISO_Code":"LTU"}
+{"label":"GPE","pattern":"Lithuanians","state":"Lithuania","ISO_Code":"LTU"}
+{"label":"GPE","pattern":"Lithuanian","state":"Lithuania","ISO_Code":"LTU"}
+{"label":"GPE","pattern":"Malawi","state":"Malawi","ISO_Code":"MWI"}
+{"label":"GPE","pattern":"Malawians","state":"Malawi","ISO_Code":"MWI"}
+{"label":"GPE","pattern":"Malawian","state":"Malawi","ISO_Code":"MWI"}
+{"label":"GPE","pattern":"Malaysia","state":"Malaysia","ISO_Code":"MYS"}
+{"label":"GPE","pattern":"Malaysians","state":"Malaysia","ISO_Code":"MYS"}
+{"label":"GPE","pattern":"Malaysian","state":"Malaysia","ISO_Code":"MYS"}
+{"label":"GPE","pattern":"Mali","state":"Mali","ISO_Code":"MLI"}
+{"label":"GPE","pattern":"Malians","state":"Mali","ISO_Code":"MLI"}
+{"label":"GPE","pattern":"Malian","state":"Mali","ISO_Code":"MLI"}
+{"label":"GPE","pattern":"Mauritania","state":"Mauritania","ISO_Code":"MRT"}
+{"label":"GPE","pattern":"Mauritanians","state":"Mauritania","ISO_Code":"MRT"}
+{"label":"GPE","pattern":"Mauritanian","state":"Mauritania","ISO_Code":"MRT"}
+{"label":"GPE","pattern":"Mexico","state":"Mexico","ISO_Code":"MEX"}
+{"label":"GPE","pattern":"Mexicans","state":"Mexico","ISO_Code":"MEX"}
+{"label":"GPE","pattern":"Mexican","state":"Mexico","ISO_Code":"MEX"}
+{"label":"GPE","pattern":"Micronesia","state":"Micronesia","ISO_Code":"FSM"}
+{"label":"GPE","pattern":"Micronesians","state":"Micronesia","ISO_Code":"FSM"}
+{"label":"GPE","pattern":"Micronesian","state":"Micronesia","ISO_Code":"FSM"}
+{"label":"GPE","pattern":"Moldova","state":"Moldova","ISO_Code":"MDA"}
+{"label":"GPE","pattern":"Moldovans","state":"Moldova","ISO_Code":"MDA"}
+{"label":"GPE","pattern":"Moldovan","state":"Moldova","ISO_Code":"MDA"}
+{"label":"GPE","pattern":"Mongolia","state":"Mongolia","ISO_Code":"MNG"}
+{"label":"GPE","pattern":"Mongolians","state":"Mongolia","ISO_Code":"MNG"}
+{"label":"GPE","pattern":"Mongolian","state":"Mongolia","ISO_Code":"MNG"}
+{"label":"GPE","pattern":"Monaco","state":"Monaco","ISO_Code":"MCO"}
+{"label":"GPE","pattern":"Monacans","state":"Monaco","ISO_Code":"MCO"}
+{"label":"GPE","pattern":"Monacan","state":"Monaco","ISO_Code":"MCO"}
+{"label":"GPE","pattern":"Morocco","state":"Morocco","ISO_Code":"MAR"}
+{"label":"GPE","pattern":"Moroccans","state":"Morocco","ISO_Code":"MAR"}
+{"label":"GPE","pattern":"Moroccan","state":"Morocco","ISO_Code":"MAR"}
+{"label":"GPE","pattern":"Mozambique","state":"Mozambique","ISO_Code":"MOZ"}
+{"label":"GPE","pattern":"Mozambicans","state":"Mozambique","ISO_Code":"MOZ"}
+{"label":"GPE","pattern":"Mozambican","state":"Mozambique","ISO_Code":"MOZ"}
+{"label":"GPE","pattern":"Namibia","state":"Namibia","ISO_Code":"NAM"}
+{"label":"GPE","pattern":"Namibians","state":"Namibia","ISO_Code":"NAM"}
+{"label":"GPE","pattern":"Namibian","state":"Namibia","ISO_Code":"NAM"}
+{"label":"GPE","pattern":"Nauru","state":"Nauru","ISO_Code":"NRU"}
+{"label":"GPE","pattern":"Nauruans","state":"Nauru","ISO_Code":"NRU"}
+{"label":"GPE","pattern":"Nauruan","state":"Nauru","ISO_Code":"NRU"}
+{"label":"GPE","pattern":"Nicaragua","state":"Nicaragua","ISO_Code":"NIC"}
+{"label":"GPE","pattern":"Nicaraguans","state":"Nicaragua","ISO_Code":"NIC"}
+{"label":"GPE","pattern":"Nicaraguan","state":"Nicaragua","ISO_Code":"NIC"}
+{"label":"GPE","pattern":"Nigeria","state":"Nigeria","ISO_Code":"NGA"}
+{"label":"GPE","pattern":"Nigerians","state":"Nigeria","ISO_Code":"NGA"}
+{"label":"GPE","pattern":"Nigerian","state":"Nigeria","ISO_Code":"NGA"}
+{"label":"GPE","pattern":"North Korea","state":"North Korea","ISO_Code":"PRK"}
+{"label":"GPE","pattern":"North Koreans","state":"North Korea","ISO_Code":"PRK"}
+{"label":"GPE","pattern":"North Korean","state":"North Korea","ISO_Code":"PRK"}
+{"label":"GPE","pattern":"North Macedonia","state":"North Macedonia","ISO_Code":"MKD"}
+{"label":"GPE","pattern":"Macedonians","state":"North Macedonia","ISO_Code":"MKD"}
+{"label":"GPE","pattern":"Macedonian","state":"North Macedonia","ISO_Code":"MKD"}
+{"label":"GPE","pattern":"Palau","state":"Palau","ISO_Code":"PLW"}
+{"label":"GPE","pattern":"Palauans","state":"Palau","ISO_Code":"PLW"}
+{"label":"GPE","pattern":"Palauan","state":"Palau","ISO_Code":"PLW"}
+{"label":"GPE","pattern":"Papua New Guinea","state":"Papua New Guinea","ISO_Code":"PNG"}
+{"label":"GPE","pattern":"Papua New Guineans","state":"Papua New Guinea","ISO_Code":"PNG"}
+{"label":"GPE","pattern":"Papua New Guinean","state":"Papua New Guinea","ISO_Code":"PNG"}
+{"label":"GPE","pattern":"Paraguay","state":"Paraguay","ISO_Code":"PRY"}
+{"label":"GPE","pattern":"Paraguayans","state":"Paraguay","ISO_Code":"PRY"}
+{"label":"GPE","pattern":"Paraguayan","state":"Paraguay","ISO_Code":"PRY"}
+{"label":"GPE","pattern":"Persia","state":"Iran","ISO_Code":"IRN"}
+{"label":"GPE","pattern":"Persians","state":"Iran","ISO_Code":"IRN"}
+{"label":"GPE","pattern":"Persian","state":"Iran","ISO_Code":"IRN"}
+{"label":"GPE","pattern":"Puerto Rico","state":"Puerto Rico","ISO_Code":"PRI"}
+{"label":"GPE","pattern":"Puerto Ricans","state":"Puerto Rico","ISO_Code":"PRI"}
+{"label":"GPE","pattern":"Puerto Rican","state":"Puerto Rico","ISO_Code":"PRI"}
+{"label":"GPE","pattern":"Romania","state":"Romania","ISO_Code":"ROU"}
+{"label":"GPE","pattern":"Romanians","state":"Romania","ISO_Code":"ROU"}
+{"label":"GPE","pattern":"Romanian","state":"Romania","ISO_Code":"ROU"}
+{"label":"GPE","pattern":"Russia","state":"Russia","ISO_Code":"RUS"}
+{"label":"GPE","pattern":"Russians","state":"Russia","ISO_Code":"RUS"}
+{"label":"GPE","pattern":"Russian","state":"Russia","ISO_Code":"RUS"}
+{"label":"GPE","pattern":"Rwanda","state":"Rwanda","ISO_Code":"RWA"}
+{"label":"GPE","pattern":"Rwandans","state":"Rwanda","ISO_Code":"RWA"}
+{"label":"GPE","pattern":"Rwandan","state":"Rwanda","ISO_Code":"RWA"}
+{"label":"GPE","pattern":"Saint Lucia","state":"Saint Lucia","ISO_Code":"LCA"}
+{"label":"GPE","pattern":"Saint Lucians","state":"Saint Lucia","ISO_Code":"LCA"}
+{"label":"GPE","pattern":"Saint Lucian","state":"Saint Lucia","ISO_Code":"LCA"}
+{"label":"GPE","pattern":"Samoa","state":"Samoa","ISO_Code":"WSM"}
+{"label":"GPE","pattern":"Samoans","state":"Samoa","ISO_Code":"WSM"}
+{"label":"GPE","pattern":"Samoan","state":"Samoa","ISO_Code":"WSM"}
+{"label":"GPE","pattern":"Saudi Arabia","state":"Saudi Arabia","ISO_Code":"SAU"}
+{"label":"GPE","pattern":"Saudi Arabians","state":"Saudi Arabia","ISO_Code":"SAU"}
+{"label":"GPE","pattern":"Saudi Arabian","state":"Saudi Arabia","ISO_Code":"SAU"}
+{"label":"GPE","pattern":"Serbia","state":"Serbia","ISO_Code":"SRB"}
+{"label":"GPE","pattern":"Serbians","state":"Serbia","ISO_Code":"SRB"}
+{"label":"GPE","pattern":"Serbian","state":"Serbia","ISO_Code":"SRB"}
+{"label":"GPE","pattern":"Sierra Leone","state":"Sierra Leone","ISO_Code":"SLE"}
+{"label":"GPE","pattern":"Sierra Leoneans","state":"Sierra Leone","ISO_Code":"SLE"}
+{"label":"GPE","pattern":"Sierra Leonean","state":"Sierra Leone","ISO_Code":"SLE"}
+{"label":"GPE","pattern":"Singapore","state":"Singapore","ISO_Code":"SGP"}
+{"label":"GPE","pattern":"Singaporeans","state":"Singapore","ISO_Code":"SGP"}
+{"label":"GPE","pattern":"Singaporean","state":"Singapore","ISO_Code":"SGP"}
+{"label":"GPE","pattern":"Slovakia","state":"Slovakia","ISO_Code":"SVK"}
+{"label":"GPE","pattern":"Slovaks","state":"Slovakia","ISO_Code":"SVK"}
+{"label":"GPE","pattern":"Slovenia","state":"Slovenia","ISO_Code":"SVN"}
+{"label":"GPE","pattern":"Slovenians","state":"Slovenia","ISO_Code":"SVN"}
+{"label":"GPE","pattern":"Slovenian","state":"Slovenia","ISO_Code":"SVN"}
+{"label":"GPE","pattern":"South Africa","state":"South Africa","ISO_Code":"ZAF"}
+{"label":"GPE","pattern":"South Africans","state":"South Africa","ISO_Code":"ZAF"}
+{"label":"GPE","pattern":"South African","state":"South Africa","ISO_Code":"ZAF"}
+{"label":"GPE","pattern":"South Korea","state":"South Korea","ISO_Code":"KOR"}
+{"label":"GPE","pattern":"South Koreans","state":"South Korea","ISO_Code":"KOR"}
+{"label":"GPE","pattern":"South Korean","state":"South Korea","ISO_Code":"KOR"}
+{"label":"GPE","pattern":"Sri Lanka","state":"Sri Lanka","ISO_Code":"LKA"}
+{"label":"GPE","pattern":"Sri Lankans","state":"Sri Lanka","ISO_Code":"LKA"}
+{"label":"GPE","pattern":"Sri Lankan","state":"Sri Lanka","ISO_Code":"LKA"}
+{"label":"GPE","pattern":"St. Kitts and Nevis","state":"St. Kitts and Nevis","ISO_Code":"KNA"}
+{"label":"GPE","pattern":"Kittitians","state":"St. Kitts and Nevis","ISO_Code":"KNA"}
+{"label":"GPE","pattern":"Kittitian","state":"St. Kitts and Nevis","ISO_Code":"KNA"}
+{"label":"GPE","pattern":"Nevisians","state":"St. Kitts and Nevis","ISO_Code":"KNA"}
+{"label":"GPE","pattern":"Nevisian","state":"St. Kitts and Nevis","ISO_Code":"KNA"}
+{"label":"GPE","pattern":"Syria","state":"Syria","ISO_Code":"SYR"}
+{"label":"GPE","pattern":"Syrians","state":"Syria","ISO_Code":"SYR"}
+{"label":"GPE","pattern":"Syrian","state":"Syria","ISO_Code":"SYR"}
+{"label":"GPE","pattern":"Tanzania","state":"Tanzania","ISO_Code":"TZA"}
+{"label":"GPE","pattern":"Tanzanians","state":"Tanzania","ISO_Code":"TZA"}
+{"label":"GPE","pattern":"Tanzanian","state":"Tanzania","ISO_Code":"TZA"}
+{"label":"GPE","pattern":"Tonga","state":"Tonga","ISO_Code":"TON"}
+{"label":"GPE","pattern":"Tongans","state":"Tonga","ISO_Code":"TON"}
+{"label":"GPE","pattern":"Tongan","state":"Tonga","ISO_Code":"TON"}
+{"label":"GPE","pattern":"Tunisia","state":"Tunisia","ISO_Code":"TUN"}
+{"label":"GPE","pattern":"Tunisians","state":"Tunisia","ISO_Code":"TUN"}
+{"label":"GPE","pattern":"Tunisian","state":"Tunisia","ISO_Code":"TUN"}
+{"label":"GPE","pattern":"Tuvalu","state":"Tuvalu","ISO_Code":"TUV"}
+{"label":"GPE","pattern":"Tuvaluans","state":"Tuvalu","ISO_Code":"TUV"}
+{"label":"GPE","pattern":"Tuvaluan","state":"Tuvalu","ISO_Code":"TUV"}
+{"label":"GPE","pattern":"Uganda","state":"Uganda","ISO_Code":"UGA"}
+{"label":"GPE","pattern":"Ugandans","state":"Uganda","ISO_Code":"UGA"}
+{"label":"GPE","pattern":"Ugandan","state":"Uganda","ISO_Code":"UGA"}
+{"label":"GPE","pattern":"Uruguay","state":"Uruguay","ISO_Code":"URY"}
+{"label":"GPE","pattern":"Uruguayans","state":"Uruguay","ISO_Code":"URY"}
+{"label":"GPE","pattern":"Uruguayan","state":"Uruguay","ISO_Code":"URY"}
+{"label":"GPE","pattern":"Vanuatu","state":"Vanuatu","ISO_Code":"VUT"}
+{"label":"GPE","pattern":"Vanuatuans","state":"Vanuatu","ISO_Code":"VUT"}
+{"label":"GPE","pattern":"Vanuatuan","state":"Vanuatu","ISO_Code":"VUT"}
+{"label":"GPE","pattern":"Venezuela","state":"Venezuela","ISO_Code":"VEN"}
+{"label":"GPE","pattern":"Venezuelans","state":"Venezuela","ISO_Code":"VEN"}
+{"label":"GPE","pattern":"Venezuelan","state":"Venezuela","ISO_Code":"VEN"}
+{"label":"GPE","pattern":"Zambia","state":"Zambia","ISO_Code":"ZMB"}
+{"label":"GPE","pattern":"Zambians","state":"Zambia","ISO_Code":"ZMB"}
+{"label":"GPE","pattern":"Zambian","state":"Zambia","ISO_Code":"ZMB"}
+{"label":"GPE","pattern":"Zimbabwe","state":"Zimbabwe","ISO_Code":"ZWE"}
+{"label":"GPE","pattern":"Zimbabweans","state":"Zimbabwe","ISO_Code":"ZWE"}
+{"label":"GPE","pattern":"Zimbabwean","state":"Zimbabwe","ISO_Code":"ZWE"}
+{"label":"GPE","pattern":"Emirate of Abu Dhabi","state":"Abu Dhabi","ISO_Code":"ARE"}
+{"label":"GPE","pattern":"Abu Dhabians","state":"Abu Dhabi","ISO_Code":"ARE"}
+{"label":"GPE","pattern":"Abu Dhabian","state":"Abu Dhabi","ISO_Code":"ARE"}
+{"label":"GPE","pattern":"Azerbaijan","state":"Azerbaijan","ISO_Code":"AZE"}
+{"label":"GPE","pattern":"Azerbaijanians","state":"Azerbaijan","ISO_Code":"AZE"}
+{"label":"GPE","pattern":"Azerbaijanian","state":"Azerbaijan","ISO_Code":"AZE"}
+{"label":"GPE","pattern":"Bahamas","state":"Bahamas","ISO_Code":"BHS"}
+{"label":"GPE","pattern":"Bahamians","state":"Bahamas","ISO_Code":"BHS"}
+{"label":"GPE","pattern":"Bahamian","state":"Bahamas","ISO_Code":"BHS"}
+{"label":"GPE","pattern":"Barbados","state":"Barbados","ISO_Code":"BRB"}
+{"label":"GPE","pattern":"Barbadians","state":"Barbados","ISO_Code":"BRB"}
+{"label":"GPE","pattern":"Barbadian","state":"Barbados","ISO_Code":"BRB"}
+{"label":"GPE","pattern":"Belarus","state":"Belarus","ISO_Code":"BLR"}
+{"label":"GPE","pattern":"Belarusians","state":"Belarus","ISO_Code":"BLR"}
+{"label":"GPE","pattern":"Belarusian","state":"Belarus","ISO_Code":"BLR"}
+{"label":"GPE","pattern":"Belgium","state":"Belgium","ISO_Code":"BEL"}
+{"label":"GPE","pattern":"Belgians","state":"Belgium","ISO_Code":"BEL"}
+{"label":"GPE","pattern":"Belgian","state":"Belgium","ISO_Code":"BEL"}
+{"label":"GPE","pattern":"Brazil","state":"Brazil","ISO_Code":"BRA"}
+{"label":"GPE","pattern":"Brazilians","state":"Brazil","ISO_Code":"BRA"}
+{"label":"GPE","pattern":"Brazilian","state":"Brazil","ISO_Code":"BRA"}
+{"label":"GPE","pattern":"Cameroon","state":"Cameroon","ISO_Code":"CMR"}
+{"label":"GPE","pattern":"Cameroonians","state":"Cameroon","ISO_Code":"CMR"}
+{"label":"GPE","pattern":"Cameroonian","state":"Cameroon","ISO_Code":"CMR"}
+{"label":"GPE","pattern":"Canada","state":"Canada","ISO_Code":"CAN"}
+{"label":"GPE","pattern":"Canadians","state":"Canada","ISO_Code":"CAN"}
+{"label":"GPE","pattern":"Canadian","state":"Canada","ISO_Code":"CAN"}
+{"label":"GPE","pattern":"Cayman Islands","state":"Cayman Islands","ISO_Code":"CYM"}
+{"label":"GPE","pattern":"Caymanians","state":"Cayman Islands","ISO_Code":"CYM"}
+{"label":"GPE","pattern":"Caymanian","state":"Cayman Islands","ISO_Code":"CYM"}
+{"label":"GPE","pattern":"Chad","state":"Chad","ISO_Code":"TCD"}
+{"label":"GPE","pattern":"Chadians","state":"Chad","ISO_Code":"TCD"}
+{"label":"GPE","pattern":"Chadian","state":"Chad","ISO_Code":"TCD"}
+{"label":"GPE","pattern":"Comoros","state":"Comoros","ISO_Code":"COM"}
+{"label":"GPE","pattern":"Comorians","state":"Comoros","ISO_Code":"COM"}
+{"label":"GPE","pattern":"Comorian","state":"Comoros","ISO_Code":"COM"}
+{"label":"GPE","pattern":"Ecuador","state":"Ecuador","ISO_Code":"ECU"}
+{"label":"GPE","pattern":"Ecuadorians","state":"Ecuador","ISO_Code":"ECU"}
+{"label":"GPE","pattern":"Ecuadorian","state":"Ecuador","ISO_Code":"ECU"}
+{"label":"GPE","pattern":"Egypt","state":"Egypt","ISO_Code":"EGY"}
+{"label":"GPE","pattern":"Egyptians","state":"Egypt","ISO_Code":"EGY"}
+{"label":"GPE","pattern":"Egyptian","state":"Egypt","ISO_Code":"EGY"}
+{"label":"GPE","pattern":"Ghana","state":"Ghana","ISO_Code":"GHA"}
+{"label":"GPE","pattern":"Ghanaians","state":"Ghana","ISO_Code":"GHA"}
+{"label":"GPE","pattern":"Ghanaian","state":"Ghana","ISO_Code":"GHA"}
+{"label":"GPE","pattern":"Gibraltar","state":"Gibraltar","ISO_Code":"GIB"}
+{"label":"GPE","pattern":"Gibraltarians","state":"Gibraltar","ISO_Code":"GIB"}
+{"label":"GPE","pattern":"Gibraltarian","state":"Gibraltar","ISO_Code":"GIB"}
+{"label":"GPE","pattern":"Grenada","state":"Grenada","ISO_Code":"GRD"}
+{"label":"GPE","pattern":"Grenadians","state":"Grenada","ISO_Code":"GRD"}
+{"label":"GPE","pattern":"Grenadian","state":"Grenada","ISO_Code":"GRD"}
+{"label":"GPE","pattern":"Iran","state":"Iran","ISO_Code":"IRN"}
+{"label":"GPE","pattern":"Iranians","state":"Iran","ISO_Code":"IRN"}
+{"label":"GPE","pattern":"Iranian","state":"Iran","ISO_Code":"IRN"}
+{"label":"GPE","pattern":"Italy","state":"Italy","ISO_Code":"ITA"}
+{"label":"GPE","pattern":"Italians","state":"Italy","ISO_Code":"ITA"}
+{"label":"GPE","pattern":"Italian","state":"Italy","ISO_Code":"ITA"}
+{"label":"GPE","pattern":"Jordan","state":"Jordan","ISO_Code":"JOR"}
+{"label":"GPE","pattern":"Jordanians","state":"Jordan","ISO_Code":"JOR"}
+{"label":"GPE","pattern":"Jordanian","state":"Jordan","ISO_Code":"JOR"}
+{"label":"GPE","pattern":"Laos","state":"Laos","ISO_Code":"LAO"}
+{"label":"GPE","pattern":"Laotians","state":"Laos","ISO_Code":"LAO"}
+{"label":"GPE","pattern":"Laotian","state":"Laos","ISO_Code":"LAO"}
+{"label":"GPE","pattern":"Maldives","state":"Maldives","ISO_Code":"MDV"}
+{"label":"GPE","pattern":"Maldivians","state":"Maldives","ISO_Code":"MDV"}
+{"label":"GPE","pattern":"Maldivian","state":"Maldives","ISO_Code":"MDV"}
+{"label":"GPE","pattern":"Palestine","state":"Palestine","ISO_Code":"PSE"}
+{"label":"GPE","pattern":"Palestinians","state":"Palestine","ISO_Code":"PSE"}
+{"label":"GPE","pattern":"Palestinian","state":"Palestine","ISO_Code":"PSE"}
+{"label":"GPE","pattern":"Peru","state":"Peru","ISO_Code":"PER"}
+{"label":"GPE","pattern":"Peruvians","state":"Peru","ISO_Code":"PER"}
+{"label":"GPE","pattern":"Peruvian","state":"Peru","ISO_Code":"PER"}
+{"label":"GPE","pattern":"Saint Vincent","state":"Saint Vincent","ISO_Code":"VCT"}
+{"label":"GPE","pattern":"Vincentians","state":"Saint Vincent","ISO_Code":"VCT"}
+{"label":"GPE","pattern":"Vincentian","state":"Saint Vincent","ISO_Code":"VCT"}
+{"label":"GPE","pattern":"Trinidad and Tobago","state":"Trinidad and Tobago","ISO_Code":"TTO"}
+{"label":"GPE","pattern":"Trinidadians","state":"Trinidad and Tobago","ISO_Code":"TTO"}
+{"label":"GPE","pattern":"Trinidadian","state":"Trinidad and Tobago","ISO_Code":"TTO"}
+{"label":"GPE","pattern":"Tobagonians","state":"Trinidad and Tobago","ISO_Code":"TTO"}
+{"label":"GPE","pattern":"Tobagonian","state":"Trinidad and Tobago","ISO_Code":"TTO"}
+{"label":"GPE","pattern":"Ukraine","state":"Ukraine","ISO_Code":"UKR"}
+{"label":"GPE","pattern":"Ukrainians","state":"Ukraine","ISO_Code":"UKR"}
+{"label":"GPE","pattern":"Ukrainian","state":"Ukraine","ISO_Code":"UKR"}
+{"label":"GPE","pattern":"Guam","state":"Guam","ISO_Code":"GUM"}
+{"label":"GPE","pattern":"Guamanians","state":"Guam","ISO_Code":"GUM"}
+{"label":"GPE","pattern":"Guamanian","state":"Guam","ISO_Code":"GUM"}
+{"label":"GPE","pattern":"Panama","state":"Panama","ISO_Code":"PAN"}
+{"label":"GPE","pattern":"Panamanians","state":"Panama","ISO_Code":"PAN"}
+{"label":"GPE","pattern":"Panamanian","state":"Panama","ISO_Code":"PAN"}
+{"label":"GPE","pattern":"Argentina","state":"Argentina","ISO_Code":"ARG"}
+{"label":"GPE","pattern":"Argentines","state":"Argentina","ISO_Code":"ARG"}
+{"label":"GPE","pattern":"Argentine","state":"Argentina","ISO_Code":"ARG"}
+{"label":"GPE","pattern":"Montenegro","state":"Montenegro","ISO_Code":"MNE"}
+{"label":"GPE","pattern":"Montenegrins","state":"Montenegro","ISO_Code":"MNE"}
+{"label":"GPE","pattern":"Montenegrin","state":"Montenegro","ISO_Code":"MNE"}
+{"label":"GPE","pattern":"Philippines","state":"Philippines","ISO_Code":"PHL"}
+{"label":"GPE","pattern":"Philippine","state":"Philippines","ISO_Code":"PHL"}
+{"label":"GPE","pattern":"Filipino","state":"Philippines","ISO_Code":"PHL"}
+{"label":"GPE","pattern":"El Salvador","state":"El Salvador","ISO_Code":"SLV"}
+{"label":"GPE","pattern":"Philippines","state":"Philippines","ISO_Code":"PHL"}
+{"label":"GPE","pattern":"Filipinos","state":"Philippines","ISO_Code":"PHL"}
+{"label":"GPE","pattern":"Luxembourg","state":"Luxembourg","ISO_Code":"LUX"}
+{"label":"GPE","pattern":"Luxembourgers","state":"Luxembourg","ISO_Code":"LUX"}
+{"label":"GPE","pattern":"Iceland","state":"Iceland","ISO_Code":"ISL"}
+{"label":"GPE","pattern":"Icelanders","state":"Iceland","ISO_Code":"ISL"}
+{"label":"GPE","pattern":"Icelandic","state":"Iceland","ISO_Code":"ISL"}
+{"label":"GPE","pattern":"Britain","state":"Britain","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"British","state":"Britain","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"Denmark","state":"Denmark","ISO_Code":"DNK"}
+{"label":"GPE","pattern":"Danish","state":"Denmark","ISO_Code":"DNK"}
+{"label":"GPE","pattern":"England","state":"England","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"English","state":"England","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"Finland","state":"Finland","ISO_Code":"FIN"}
+{"label":"GPE","pattern":"Finnish","state":"Finland","ISO_Code":"FIN"}
+{"label":"GPE","pattern":"Luxembourg","state":"Luxembourg","ISO_Code":"LUX"}
+{"label":"GPE","pattern":"Luxembourgish","state":"Luxembourg","ISO_Code":"LUX"}
+{"label":"GPE","pattern":"Poland","state":"Poland","ISO_Code":"POL"}
+{"label":"GPE","pattern":"Polish","state":"Poland","ISO_Code":"POL"}
+{"label":"GPE","pattern":"Scotland","state":"Scotland","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"Scottish","state":"Scotland","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"Spain","state":"Spain","ISO_Code":"ESP"}
+{"label":"GPE","pattern":"Spanish","state":"Spain","ISO_Code":"ESP"}
+{"label":"GPE","pattern":"Sweden","state":"Sweden","ISO_Code":"SWE"}
+{"label":"GPE","pattern":"Swedish","state":"Sweden","ISO_Code":"SWE"}
+{"label":"GPE","pattern":"Turkey","state":"Turkey","ISO_Code":"TUR"}
+{"label":"GPE","pattern":"Turkish","state":"Turkey","ISO_Code":"TUR"}
+{"label":"GPE","pattern":"Wales","state":"Wales","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"Welsh","state":"Wales","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"Slovenia","state":"Slovenia","ISO_Code":"SVN"}
+{"label":"GPE","pattern":"Slovenes","state":"Slovenia","ISO_Code":"SVN"}
+{"label":"GPE","pattern":"Benin","state":"Benin","ISO_Code":"BEN"}
+{"label":"GPE","pattern":"Beninese","state":"Benin","ISO_Code":"BEN"}
+{"label":"GPE","pattern":"Bhutan","state":"Bhutan","ISO_Code":"BTN"}
+{"label":"GPE","pattern":"Bhutanese","state":"Bhutan","ISO_Code":"BTN"}
+{"label":"GPE","pattern":"Burkina Faso","state":"Burkina Faso","ISO_Code":"BFA"}
+{"label":"GPE","pattern":"Burkinese","state":"Burkina Faso","ISO_Code":"BFA"}
+{"label":"GPE","pattern":"China","state":"China","ISO_Code":"CHN"}
+{"label":"GPE","pattern":"Chinese","state":"China","ISO_Code":"CHN"}
+{"label":"GPE","pattern":"Congo","state":"Congo","ISO_Code":"COG"}
+{"label":"GPE","pattern":"Congolese","state":"Congo","ISO_Code":"COG"}
+{"label":"GPE","pattern":"Gabon","state":"Gabon","ISO_Code":"GAB"}
+{"label":"GPE","pattern":"Gabonese","state":"Gabon","ISO_Code":"GAB"}
+{"label":"GPE","pattern":"Guyana","state":"Guyana","ISO_Code":"GUY"}
+{"label":"GPE","pattern":"Guyanese","state":"Guyana","ISO_Code":"GUY"}
+{"label":"GPE","pattern":"Japan","state":"Japan","ISO_Code":"JPN"}
+{"label":"GPE","pattern":"Japanese","state":"Japan","ISO_Code":"JPN"}
+{"label":"GPE","pattern":"Lebanon","state":"Lebanon","ISO_Code":"LBN"}
+{"label":"GPE","pattern":"Lebanese","state":"Lebanon","ISO_Code":"LBN"}
+{"label":"GPE","pattern":"Malta","state":"Malta","ISO_Code":"MLT"}
+{"label":"GPE","pattern":"Maltese","state":"Malta","ISO_Code":"MLT"}
+{"label":"GPE","pattern":"Marshall Islands","state":"Marshall Islands","ISO_Code":"MHL"}
+{"label":"GPE","pattern":"Marshallese","state":"Marshall Islands","ISO_Code":"MHL"}
+{"label":"GPE","pattern":"Myanmar","state":"Myanmar","ISO_Code":"MMR"}
+{"label":"GPE","pattern":"Burma","state":"Myanmar","ISO_Code":"MMR"}
+{"label":"GPE","pattern":"Burmese","state":"Myanmar","ISO_Code":"MMR"}
+{"label":"GPE","pattern":"Portugal","state":"Portugal","ISO_Code":"PRT"}
+{"label":"GPE","pattern":"Portuguese","state":"Portugal","ISO_Code":"PRT"}
+{"label":"GPE","pattern":"Rwanda","state":"Rwanda","ISO_Code":"RWA"}
+{"label":"GPE","pattern":"Rwandese","state":"Rwanda","ISO_Code":"RWA"}
+{"label":"GPE","pattern":"Rwandan","state":"Rwanda","ISO_Code":"RWA"}
+{"label":"GPE","pattern":"Senegal","state":"Senegal","ISO_Code":"SEN"}
+{"label":"GPE","pattern":"Senegalese","state":"Senegal","ISO_Code":"SEN"}
+{"label":"GPE","pattern":"San Marino","state":"San Marino","ISO_Code":"SMR"}
+{"label":"GPE","pattern":"Sammarinese","state":"San Marino","ISO_Code":"SMR"}
+{"label":"GPE","pattern":"Senegal","state":"Senegal","ISO_Code":"SEN"}
+{"label":"GPE","pattern":"Senegalese","state":"Senegal","ISO_Code":"SEN"}
+{"label":"GPE","pattern":"Suriname","state":"Suriname","ISO_Code":"SUR"}
+{"label":"GPE","pattern":"Surinamese","state":"Suriname","ISO_Code":"SUR"}
+{"label":"GPE","pattern":"Taiwan","state":"Taiwan","ISO_Code":"TWN"}
+{"label":"GPE","pattern":"Taiwanese","state":"Taiwan","ISO_Code":"TWN"}
+{"label":"GPE","pattern":"Togo","state":"Togo","ISO_Code":"TGO"}
+{"label":"GPE","pattern":"Togolese","state":"Togo","ISO_Code":"TGO"}
+{"label":"GPE","pattern":"Vietnam","state":"Vietnam","ISO_Code":"VNM"}
+{"label":"GPE","pattern":"Viet-Nam","state":"Vietnam","ISO_Code":"VNM"}
+{"label":"GPE","pattern":"Vietnamese","state":"Vietnam","ISO_Code":"VNM"}
+{"label":"GPE","pattern":"Viet-Namese","state":"Vietnam","ISO_Code":"VNM"}
+{"label":"GPE","pattern":"Afghanistan","state":"Afghanistan","ISO_Code":"AFG"}
+{"label":"GPE","pattern":"Afghanistanis","state":"Afghanistan","ISO_Code":"AFG"}
+{"label":"GPE","pattern":"Azerbaijan","state":"Azerbaijan","ISO_Code":"AZE"}
+{"label":"GPE","pattern":"Azerbaijanis","state":"Azerbaijan","ISO_Code":"AZE"}
+{"label":"GPE","pattern":"Bahrain","state":"Bahrain","ISO_Code":"BHR"}
+{"label":"GPE","pattern":"Bahrainis","state":"Bahrain","ISO_Code":"BHR"}
+{"label":"GPE","pattern":"Bangladesh","state":"Bangladesh","ISO_Code":"BGD"}
+{"label":"GPE","pattern":"Bangladeshis","state":"Bangladesh","ISO_Code":"BGD"}
+{"label":"GPE","pattern":"Eswatini","state":"Eswatini","ISO_Code":"SWZ"}
+{"label":"GPE","pattern":"Swaziland","state":"Eswatini","ISO_Code":"SWZ"}
+{"label":"GPE","pattern":"Swazis","state":"Eswatini","ISO_Code":"SWZ"}
+{"label":"GPE","pattern":"Swatis","state":"Eswatini","ISO_Code":"SWZ"}
+{"label":"GPE","pattern":"Iraq","state":"Iraq","ISO_Code":"IRQ"}
+{"label":"GPE","pattern":"Iraqis","state":"Iraq","ISO_Code":"IRQ"}
+{"label":"GPE","pattern":"Israel","state":"Israel","ISO_Code":"ISR"}
+{"label":"GPE","pattern":"Israelis","state":"Israel","ISO_Code":"ISR"}
+{"label":"GPE","pattern":"Kazakhstan","state":"Kazakhstan","ISO_Code":"KAZ"}
+{"label":"GPE","pattern":"Kazakhstanis","state":"Kazakhstan","ISO_Code":"KAZ"}
+{"label":"GPE","pattern":"Kuwait","state":"Kuwait","ISO_Code":"KWT"}
+{"label":"GPE","pattern":"Kuwaitis","state":"Kuwait","ISO_Code":"KWT"}
+{"label":"GPE","pattern":"Kyrgyzstan","state":"Kyrgyzstan","ISO_Code":"KGZ"}
+{"label":"GPE","pattern":"Kyrgyzstanis","state":"Kyrgyzstan","ISO_Code":"KGZ"}
+{"label":"GPE","pattern":"Nepal","state":"Nepal","ISO_Code":"NPL"}
+{"label":"GPE","pattern":"Nepali","state":"Nepal","ISO_Code":"NPL"}
+{"label":"GPE","pattern":"Nepalis","state":"Nepal","ISO_Code":"NPL"}
+{"label":"GPE","pattern":"Nepalese","state":"Nepal","ISO_Code":"NPL"}
+{"label":"GPE","pattern":"Oman","state":"Oman","ISO_Code":"OMN"}
+{"label":"GPE","pattern":"Omanis","state":"Oman","ISO_Code":"OMN"}
+{"label":"GPE","pattern":"Pakistan","state":"Pakistan","ISO_Code":"PAK"}
+{"label":"GPE","pattern":"Pakistanis","state":"Pakistan","ISO_Code":"PAK"}
+{"label":"GPE","pattern":"Qatar","state":"Qatar","ISO_Code":"QAT"}
+{"label":"GPE","pattern":"Qataris","state":"Qatar","ISO_Code":"QAT"}
+{"label":"GPE","pattern":"Qatari","state":"Qatar","ISO_Code":"QAT"}
+{"label":"GPE","pattern":"Somalia","state":"Somalia","ISO_Code":"SOM"}
+{"label":"GPE","pattern":"Somalis","state":"Somalia","ISO_Code":"SOM"}
+{"label":"GPE","pattern":"Somalian","state":"Somalia","ISO_Code":"SOM"}
+{"label":"GPE","pattern":"Tajikistan","state":"Tajikistan","ISO_Code":"TJK"}
+{"label":"GPE","pattern":"Tajikistanis","state":"Tajikistan","ISO_Code":"TJK"}
+{"label":"GPE","pattern":"Tajikistani","state":"Tajikistan","ISO_Code":"TJK"}
+{"label":"GPE","pattern":"Thailand","state":"Thailand","ISO_Code":"THA"}
+{"label":"GPE","pattern":"Thais","state":"Thailand","ISO_Code":"THA"}
+{"label":"GPE","pattern":"Thai","state":"Thailand","ISO_Code":"THA"}
+{"label":"GPE","pattern":"Trinidad and Tobago","state":"Trinidad and Tobago","ISO_Code":"TTO"}
+{"label":"GPE","pattern":"Trini","state":"Trinidad and Tobago","ISO_Code":"TTO"}
+{"label":"GPE","pattern":"Turkmenistan","state":"Turkmenistan","ISO_Code":"TKM"}
+{"label":"GPE","pattern":"Turkmenistanis","state":"Turkmenistan","ISO_Code":"TKM"}
+{"label":"GPE","pattern":"Turkmenistani","state":"Turkmenistan","ISO_Code":"TKM"}
+{"label":"GPE","pattern":"United Arab Emirates","state":"United Arab Emirates","ISO_Code":"ARE"}
+{"label":"GPE","pattern":"Emiratis","state":"United Arab Emirates","ISO_Code":"ARE"}
+{"label":"GPE","pattern":"Uzbekistan","state":"Uzbekistan","ISO_Code":"UZB"}
+{"label":"GPE","pattern":"Uzbekistanis","state":"Uzbekistan","ISO_Code":"UZB"}
+{"label":"GPE","pattern":"Yemen","state":"Yemen","ISO_Code":"YEM"}
+{"label":"GPE","pattern":"Yemenis","state":"Yemen","ISO_Code":"YEM"}
+{"label":"GPE","pattern":"Yemeni","state":"Yemen","ISO_Code":"YEM"}
+{"label":"GPE","pattern":"Cyprus","state":"Cyprus","ISO_Code":"CYP"}
+{"label":"GPE","pattern":"Cypriots","state":"Cyprus","ISO_Code":"CYP"}
+{"label":"GPE","pattern":"Cypriot","state":"Cyprus","ISO_Code":"CYP"}
+{"label":"GPE","pattern":"Greece","state":"Greece","ISO_Code":"GRC"}
+{"label":"GPE","pattern":"Greeks","state":"Greece","ISO_Code":"GRC"}
+{"label":"GPE","pattern":"Greek","state":"Greece","ISO_Code":"GRC"}
+{"label":"GPE","pattern":"Slovakia","state":"Slovakia","ISO_Code":"SVK"}
+{"label":"GPE","pattern":"Slovaks","state":"Slovakia","ISO_Code":"SVK"}
+{"label":"GPE","pattern":"Slovak","state":"Slovakia","ISO_Code":"SVK"}
+{"label":"GPE","pattern":"Norway","state":"Norway","ISO_Code":"NOR"}
+{"label":"GPE","pattern":"Norwegians","state":"Norway","ISO_Code":"NOR"}
+{"label":"GPE","pattern":"Norwegian","state":"Norway","ISO_Code":"NOR"}
+{"label":"GPE","pattern":"Lesotho","state":"Lesotho","ISO_Code":"LSO"}
+{"label":"GPE","pattern":"Lesothonians","state":"Lesotho","ISO_Code":"LSO"}
+{"label":"GPE","pattern":"Lesothonian","state":"Lesotho","ISO_Code":"LSO"}
+{"label":"GPE","pattern":"Peru","state":"Peru","ISO_Code":"PER"}
+{"label":"GPE","pattern":"Peruvians","state":"Peru","ISO_Code":"PER"}
+{"label":"GPE","pattern":"Peruvian","state":"Peru","ISO_Code":"PER"}
+{"label":"GPE","pattern":"Benin","state":"Benin","ISO_Code":"BEN"}
+{"label":"GPE","pattern":"Beninois","state":"Benin","ISO_Code":"BEN"}
+{"label":"GPE","pattern":"Gabon","state":"Gabon","ISO_Code":"GAB"}
+{"label":"GPE","pattern":"Gabonais","state":"Gabon","ISO_Code":"GAB"}
+{"label":"GPE","pattern":"Niger","state":"Niger","ISO_Code":"NER"}
+{"label":"GPE","pattern":"Nigerois","state":"Niger","ISO_Code":"NER"}
+{"label":"GPE","pattern":"Seychelles","state":"Seychelles","ISO_Code":"SYC"}
+{"label":"GPE","pattern":"Seychellois","state":"Seychelles","ISO_Code":"SYC"}
+{"label":"GPE","pattern":"Botswana","state":"Botswana","ISO_Code":"BWA"}
+{"label":"GPE","pattern":"Motswana","state":"Botswana","ISO_Code":"BWA"}
+{"label":"GPE","pattern":"Botswana","state":"Botswana","ISO_Code":"BWA"}
+{"label":"GPE","pattern":"Motswana","state":"Botswana","ISO_Code":"BWA"}
+{"label":"GPE","pattern":"Burundi","state":"Burundi","ISO_Code":"BDI"}
+{"label":"GPE","pattern":"Umurundi","state":"Burundi","ISO_Code":"BDI"}
+{"label":"GPE","pattern":"Eswatini","state":"Eswatini","ISO_Code":"SWZ"}
+{"label":"GPE","pattern":"Liswati","state":"Eswatini","ISO_Code":"SWZ"}
+{"label":"GPE","pattern":"Lesotho","state":"Lesotho","ISO_Code":"LSO"}
+{"label":"GPE","pattern":"Mosotho","state":"Lesotho","ISO_Code":"LSO"}
+{"label":"GPE","pattern":"Cyprus","state":"Cyprus","ISO_Code":"CYP"}
+{"label":"GPE","pattern":"Cypriots","state":"Cyprus","ISO_Code":"CYP"}
+{"label":"GPE","pattern":"Guinea Bissau","state":"Guinea-Bissau","ISO_Code":"GNB"}
+{"label":"GPE","pattern":"Bissau-Guinean","state":"Guinea-Bissau","ISO_Code":"GNB"}
+{"label":"GPE","pattern":"Madagascar","state":"Madagascar","ISO_Code":"MDG"}
+{"label":"GPE","pattern":"Malagasy","state":"Madagascar","ISO_Code":"MDG"}
+{"label":"GPE","pattern":"Uruguay","state":"Uruguay","ISO_Code":"URY"}
+{"label":"GPE","pattern":"Afghanistan","state":"Afghanistan","ISO_Code":"AFG"}
+{"label":"GPE","pattern":"Afghans","state":"Afghanistan","ISO_Code":"AFG"}
+{"label":"GPE","pattern":"Afghan","state":"Afghanistan","ISO_Code":"AFG"}
+{"label":"GPE","pattern":"Albania","state":"Albania","ISO_Code":"ALB"}
+{"label":"GPE","pattern":"Albanians","state":"Albania","ISO_Code":"ALB"}
+{"label":"GPE","pattern":"Albanian","state":"Albania","ISO_Code":"ALB"}
+{"label":"GPE","pattern":"Azerbaijan","state":"Azerbaijan","ISO_Code":"AZE"}
+{"label":"GPE","pattern":"Azerbaijanis","state":"Azerbaijan","ISO_Code":"AZE"}
+{"label":"GPE","pattern":"Azeris","state":"Azerbaijan","ISO_Code":"AZE"}
+{"label":"GPE","pattern":"Bengal","state":"Bangladesh","ISO_Code":"BGD"}
+{"label":"GPE","pattern":"Bengali","state":"Bangladesh","ISO_Code":"BGD"}
+{"label":"GPE","pattern":"Bulgaria","state":"Bulgaria","ISO_Code":"BGR"}
+{"label":"GPE","pattern":"Bulgarians","state":"Bulgaria","ISO_Code":"BGR"}
+{"label":"GPE","pattern":"Bulgarian","state":"Bulgaria","ISO_Code":"BGR"}
+{"label":"GPE","pattern":"Cambodia","state":"Cambodia","ISO_Code":"KHM"}
+{"label":"GPE","pattern":"Khmers","state":"Cambodia","ISO_Code":"KHM"}
+{"label":"GPE","pattern":"Khmer","state":"Cambodia","ISO_Code":"KHM"}
+{"label":"GPE","pattern":"China","state":"China","ISO_Code":"CHN"}
+{"label":"GPE","pattern":"Chinese","state":"China","ISO_Code":"CHN"}
+{"label":"GPE","pattern":"Croatia","state":"Croatia","ISO_Code":"HRV"}
+{"label":"GPE","pattern":"Croats","state":"Croatia","ISO_Code":"HRV"}
+{"label":"GPE","pattern":"Croat","state":"Croatia","ISO_Code":"HRV"}
+{"label":"GPE","pattern":"Czech Republic","state":"Czechia","ISO_Code":"CZE"}
+{"label":"GPE","pattern":"Czechs","state":"Czechia","ISO_Code":"CZE"}
+{"label":"GPE","pattern":"Czech","state":"Czechia","ISO_Code":"CZE"}
+{"label":"GPE","pattern":"Denmark","state":"Denmark","ISO_Code":"DNK"}
+{"label":"GPE","pattern":"Danes","state":"Denmark","ISO_Code":"DNK"}
+{"label":"GPE","pattern":"Egypt","state":"Egypt","ISO_Code":"EGY"}
+{"label":"GPE","pattern":"Egyptians","state":"Egypt","ISO_Code":"EGY"}
+{"label":"GPE","pattern":"Egyptian","state":"Egypt","ISO_Code":"EGY"}
+{"label":"GPE","pattern":"England","state":"England","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"English","state":"England","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"Eswatini","state":"Eswatini","ISO_Code":"SWZ"}
+{"label":"GPE","pattern":"Swazis","state":"Eswatini","ISO_Code":"SWZ"}
+{"label":"GPE","pattern":"Swatis","state":"Eswatini","ISO_Code":"SWZ"}
+{"label":"GPE","pattern":"Finland","state":"Finland","ISO_Code":"FIN"}
+{"label":"GPE","pattern":"Finn","state":"Finland","ISO_Code":"FIN"}
+{"label":"GPE","pattern":"France","state":"France","ISO_Code":"FRA"}
+{"label":"GPE","pattern":"French","state":"France","ISO_Code":"FRA"}
+{"label":"GPE","pattern":"United Kingdom","state":"United Kingdom","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"British","state":"Britain","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"Haiti","state":"Haiti","ISO_Code":"HTI"}
+{"label":"GPE","pattern":"Haitian","state":"Haiti","ISO_Code":"HTI"}
+{"label":"GPE","pattern":"Haitians","state":"Haiti","ISO_Code":"HTI"}
+{"label":"GPE","pattern":"Hungary","state":"Hungary","ISO_Code":"HUN"}
+{"label":"GPE","pattern":"Hungarians","state":"Hungary","ISO_Code":"HUN"}
+{"label":"GPE","pattern":"Hungarian","state":"Hungary","ISO_Code":"HUN"}
+{"label":"GPE","pattern":"Magyars","state":"Hungary","ISO_Code":"HUN"}
+{"label":"GPE","pattern":"India","state":"India","ISO_Code":"IND"}
+{"label":"GPE","pattern":"Indians","state":"India","ISO_Code":"IND"}
+{"label":"GPE","pattern":"Indian","state":"India","ISO_Code":"IND"}
+{"label":"GPE","pattern":"Indonesia","state":"Indonesia","ISO_Code":"IDN"}
+{"label":"GPE","pattern":"Indonesians","state":"Indonesia","ISO_Code":"IDN"}
+{"label":"GPE","pattern":"Indonesian","state":"Indonesia","ISO_Code":"IDN"}
+{"label":"GPE","pattern":"Iran","state":"Iran","ISO_Code":"IRN"}
+{"label":"GPE","pattern":"Iranians","state":"Iran","ISO_Code":"IRN"}
+{"label":"GPE","pattern":"Iranian","state":"Iran","ISO_Code":"IRN"}
+{"label":"GPE","pattern":"Persians","state":"Iran","ISO_Code":"IRN"}
+{"label":"GPE","pattern":"Persian","state":"Iran","ISO_Code":"IRN"}
+{"label":"GPE","pattern":"Ireland","state":"Ireland","ISO_Code":"IRL"}
+{"label":"GPE","pattern":"Irish","state":"Ireland","ISO_Code":"IRL"}
+{"label":"GPE","pattern":"Israel","state":"Israel","ISO_Code":"ISR"}
+{"label":"GPE","pattern":"Israeli","state":"Israel","ISO_Code":"ISR"}
+{"label":"GPE","pattern":"Kazakhstan","state":"Kazakhstan","ISO_Code":"KAZ"}
+{"label":"GPE","pattern":"Kazakhs","state":"Kazakhstan","ISO_Code":"KAZ"}
+{"label":"GPE","pattern":"Kyrgyzstan","state":"Kyrgyzstan","ISO_Code":"KGZ"}
+{"label":"GPE","pattern":"Kyrgyzs","state":"Kyrgyzstan","ISO_Code":"KGZ"}
+{"label":"GPE","pattern":"Madagascar","state":"Madagascar","ISO_Code":"MDG"}
+{"label":"GPE","pattern":"Mali","state":"Mali","ISO_Code":"MLI"}
+{"label":"GPE","pattern":"Malian","state":"Mali","ISO_Code":"MLI"}
+{"label":"GPE","pattern":"Malta","state":"Malta","ISO_Code":"MLT"}
+{"label":"GPE","pattern":"Maltese","state":"Malta","ISO_Code":"MLT"}
+{"label":"GPE","pattern":"Mongolia","state":"Mongolia","ISO_Code":"MNG"}
+{"label":"GPE","pattern":"Mongolian","state":"Mongolia","ISO_Code":"MNG"}
+{"label":"GPE","pattern":"Montenegro","state":"Montenegro","ISO_Code":"MNE"}
+{"label":"GPE","pattern":"Montenegrins","state":"Montenegro","ISO_Code":"MNE"}
+{"label":"GPE","pattern":"Montenegrin","state":"Montenegro","ISO_Code":"MNE"}
+{"label":"GPE","pattern":"Morocco","state":"Morocco","ISO_Code":"MAR"}
+{"label":"GPE","pattern":"Moroccans","state":"Morocco","ISO_Code":"MAR"}
+{"label":"GPE","pattern":"Moroccan","state":"Morocco","ISO_Code":"MAR"}
+{"label":"GPE","pattern":"Indians","state":"India","ISO_Code":"IND"}
+{"label":"GPE","pattern":"Indian","state":"India","ISO_Code":"IND"}
+{"label":"GPE","pattern":"Netherlands","state":"Netherlands","ISO_Code":"NLD"}
+{"label":"GPE","pattern":"Dutch","state":"Netherlands","ISO_Code":"NLD"}
+{"label":"GPE","pattern":"New Zealand","state":"New Zealand","ISO_Code":"NZL"}
+{"label":"GPE","pattern":"Kiwis","state":"New Zealand","ISO_Code":"NZL"}
+{"label":"GPE","pattern":"Philippines","state":"Philippines","ISO_Code":"PHL"}
+{"label":"GPE","pattern":"Filipinos","state":"Philippines","ISO_Code":"PHL"}
+{"label":"GPE","pattern":"Poland","state":"Poland","ISO_Code":"POL"}
+{"label":"GPE","pattern":"Poles","state":"Poland","ISO_Code":"POL"}
+{"label":"GPE","pattern":"Pole","state":"Poland","ISO_Code":"POL"}
+{"label":"GPE","pattern":"Scotland","state":"Scotland","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"Scots","state":"Scotland","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"Scot","state":"Scotland","ISO_Code":"GBR"}
+{"label":"GPE","pattern":"Serbia","state":"Serbia","ISO_Code":"SRB"}
+{"label":"GPE","pattern":"Serbs","state":"Serbia","ISO_Code":"SRB"}
+{"label":"GPE","pattern":"Serb","state":"Serbia","ISO_Code":"SRB"}
+{"label":"GPE","pattern":"Slovakia","state":"Slovakia","ISO_Code":"SVK"}
+{"label":"GPE","pattern":"Slovaks","state":"Slovakia","ISO_Code":"SVK"}
+{"label":"GPE","pattern":"Slovak","state":"Slovakia","ISO_Code":"SVK"}
+{"label":"GPE","pattern":"Slovenia","state":"Slovenia","ISO_Code":"SVN"}
+{"label":"GPE","pattern":"Slovenes","state":"Slovenia","ISO_Code":"SVN"}
+{"label":"GPE","pattern":"Slovene","state":"Slovenia","ISO_Code":"SVN"}
+{"label":"GPE","pattern":"Somalia","state":"Somalia","ISO_Code":"SOM"}
+{"label":"GPE","pattern":"Somalis","state":"Somalia","ISO_Code":"SOM"}
+{"label":"GPE","pattern":"Somali","state":"Somalia","ISO_Code":"SOM"}
+{"label":"GPE","pattern":"Spain","state":"Spain","ISO_Code":"ESP"}
+{"label":"GPE","pattern":"Spanish","state":"Spain","ISO_Code":"ESP"}
+{"label":"GPE","pattern":"Sweden","state":"Sweden","ISO_Code":"SWE"}
+{"label":"GPE","pattern":"Swedes","state":"Sweden","ISO_Code":"SWE"}
+{"label":"GPE","pattern":"Tajikistan","state":"Tajikistan","ISO_Code":"TJK"}
+{"label":"GPE","pattern":"Tajiks","state":"Tajikistan","ISO_Code":"TJK"}
+{"label":"GPE","pattern":"Tajik","state":"Tajikistan","ISO_Code":"TJK"}
+{"label":"GPE","pattern":"Thailand","state":"Thailand","ISO_Code":"THA"}
+{"label":"GPE","pattern":"Thais","state":"Thailand","ISO_Code":"THA"}
+{"label":"GPE","pattern":"Turkey","state":"Turkey","ISO_Code":"TUR"}
+{"label":"GPE","pattern":"Turks","state":"Turkey","ISO_Code":"TUR"}
+{"label":"GPE","pattern":"Turk","state":"Turkey","ISO_Code":"TUR"}
+{"label":"GPE","pattern":"Turkmenistan","state":"Turkmenistan","ISO_Code":"TKM"}
+{"label":"GPE","pattern":"Turkmens","state":"Turkmenistan","ISO_Code":"TKM"}
+{"label":"GPE","pattern":"Turkmen","state":"Turkmenistan","ISO_Code":"TKM"}
+{"label":"GPE","pattern":"United States","state":"United States of America","ISO_Code":"USA"}
+{"label":"GPE","pattern":"Americans","state":"United States of America","ISO_Code":"USA"}
+{"label":"GPE","pattern":"American","state":"United States of America","ISO_Code":"USA"}
+{"label":"GPE","pattern":"Uzbekistan","state":"Uzbekistan","ISO_Code":"UZB"}
+{"label":"GPE","pattern":"Uzbeks","state":"Uzbekistan","ISO_Code":"UZB"}
+{"label":"GPE","pattern":"Uzbek","state":"Uzbekistan","ISO_Code":"UZB"}

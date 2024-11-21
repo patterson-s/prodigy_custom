@@ -1,0 +1,686 @@
+{"label":"GPE","pattern":"Afghanistan","state":"Afghanistan","matched":true}
+{"label":"GPE","pattern":"Afghans","state":"Afghanistan","matched":false}
+{"label":"GPE","pattern":"Afghan","state":"Afghanistan","matched":false}
+{"label":"GPE","pattern":"Albania","state":"Albania","matched":true}
+{"label":"GPE","pattern":"Albanians","state":"Albania","matched":false}
+{"label":"GPE","pattern":"Albanian","state":"Albania","matched":false}
+{"label":"GPE","pattern":"Algeria","state":"Algeria","matched":true}
+{"label":"GPE","pattern":"Algerians","state":"Algeria","matched":false}
+{"label":"GPE","pattern":"Algerian","state":"Algeria","matched":false}
+{"label":"GPE","pattern":"Andorra","state":"Andorra","matched":true}
+{"label":"GPE","pattern":"Andorrans","state":"Andorra","matched":false}
+{"label":"GPE","pattern":"Andorran","state":"Andorra","matched":false}
+{"label":"GPE","pattern":"Angola","state":"Angola","matched":true}
+{"label":"GPE","pattern":"Angolans","state":"Angola","matched":false}
+{"label":"GPE","pattern":"Angolan","state":"Angola","matched":false}
+{"label":"GPE","pattern":"Antigua","state":"Antigua","matched":false}
+{"label":"GPE","pattern":"Antiguans","state":"Antigua","matched":false}
+{"label":"GPE","pattern":"Antiguan","state":"Antigua","matched":false}
+{"label":"GPE","pattern":"Armenia","state":"Armenia","matched":true}
+{"label":"GPE","pattern":"Armenians","state":"Armenia","matched":false}
+{"label":"GPE","pattern":"Armenian","state":"Armenia","matched":false}
+{"label":"GPE","pattern":"Australia","state":"Australia","matched":true}
+{"label":"GPE","pattern":"Australians","state":"Australia","matched":false}
+{"label":"GPE","pattern":"Australian","state":"Australia","matched":false}
+{"label":"GPE","pattern":"Austria","state":"Austria","matched":true}
+{"label":"GPE","pattern":"Austrians","state":"Austria","matched":false}
+{"label":"GPE","pattern":"Austrian","state":"Austria","matched":false}
+{"label":"GPE","pattern":"Belize","state":"Belize","matched":true}
+{"label":"GPE","pattern":"Belizeans","state":"Belize","matched":false}
+{"label":"GPE","pattern":"Belizean","state":"Belize","matched":false}
+{"label":"GPE","pattern":"Bolivia","state":"Bolivia","matched":true}
+{"label":"GPE","pattern":"Bolivians","state":"Bolivia","matched":false}
+{"label":"GPE","pattern":"Bolivian","state":"Bolivia","matched":false}
+{"label":"GPE","pattern":"Bosnia and Herzegovina","state":"Bosnia and Herzegovina","matched":true}
+{"label":"GPE","pattern":"Bosnians and Herzegovinians","state":"Bosnia and Herzegovina","matched":false}
+{"label":"GPE","pattern":"Bosnians and Herzegovinian","state":"Bosnia and Herzegovina","matched":false}
+{"label":"GPE","pattern":"Brunei","state":"Brunei","matched":true}
+{"label":"GPE","pattern":"Bruneians","state":"Brunei","matched":false}
+{"label":"GPE","pattern":"Bruneian","state":"Brunei","matched":false}
+{"label":"GPE","pattern":"Bulgaria","state":"Bulgaria","matched":true}
+{"label":"GPE","pattern":"Bulgarians","state":"Bulgaria","matched":false}
+{"label":"GPE","pattern":"Bulgarian","state":"Bulgaria","matched":false}
+{"label":"GPE","pattern":"Burundi","state":"Burundi","matched":true}
+{"label":"GPE","pattern":"Burundians","state":"Burundi","matched":false}
+{"label":"GPE","pattern":"Burundian","state":"Burundi","matched":false}
+{"label":"GPE","pattern":"Cambodia","state":"Cambodia","matched":true}
+{"label":"GPE","pattern":"Cambodians","state":"Cambodia","matched":false}
+{"label":"GPE","pattern":"Cambodian","state":"Cambodia","matched":false}
+{"label":"GPE","pattern":"Chile","state":"Chile","matched":true}
+{"label":"GPE","pattern":"Chileans","state":"Chile","matched":false}
+{"label":"GPE","pattern":"Chilean","state":"Chile","matched":false}
+{"label":"GPE","pattern":"Colombia","state":"Colombia","matched":true}
+{"label":"GPE","pattern":"Colombians","state":"Colombia","matched":false}
+{"label":"GPE","pattern":"Colombian","state":"Colombia","matched":false}
+{"label":"GPE","pattern":"Costa Rica","state":"Costa Rica","matched":true}
+{"label":"GPE","pattern":"Costa Ricans","state":"Costa Rica","matched":false}
+{"label":"GPE","pattern":"Costa Rican","state":"Costa Rica","matched":false}
+{"label":"GPE","pattern":"Croatia","state":"Croatia","matched":true}
+{"label":"GPE","pattern":"Croatians","state":"Croatia","matched":false}
+{"label":"GPE","pattern":"Croatian","state":"Croatia","matched":false}
+{"label":"GPE","pattern":"Cuba","state":"Cuba","matched":true}
+{"label":"GPE","pattern":"Cubans","state":"Cuba","matched":false}
+{"label":"GPE","pattern":"Cuban","state":"Cuba","matched":false}
+{"label":"GPE","pattern":"Czech Republic","state":"Czechia","matched":false}
+{"label":"GPE","pattern":"Czechs","state":"Czechia","matched":false}
+{"label":"GPE","pattern":"Dominican Republic","state":"Dominican Republic","matched":true}
+{"label":"GPE","pattern":"Dominicans","state":"Dominican Republic","matched":false}
+{"label":"GPE","pattern":"Dominican","state":"Dominican Republic","matched":false}
+{"label":"GPE","pattern":"El Salvador","state":"El Salvador","matched":true}
+{"label":"GPE","pattern":"Salvadorans","state":"El Salvador","matched":false}
+{"label":"GPE","pattern":"Salvadoran","state":"El Salvador","matched":false}
+{"label":"GPE","pattern":"Eritrea","state":"Eritrea","matched":true}
+{"label":"GPE","pattern":"Eritreans","state":"Eritrea","matched":false}
+{"label":"GPE","pattern":"Eritrean","state":"Eritrea","matched":false}
+{"label":"GPE","pattern":"Estonia","state":"Estonia","matched":true}
+{"label":"GPE","pattern":"Estonians","state":"Estonia","matched":false}
+{"label":"GPE","pattern":"Estonian","state":"Estonia","matched":false}
+{"label":"GPE","pattern":"Ethiopia","state":"Ethiopia","matched":true}
+{"label":"GPE","pattern":"Ethiopians","state":"Ethiopia","matched":false}
+{"label":"GPE","pattern":"Ethiopian","state":"Ethiopia","matched":false}
+{"label":"GPE","pattern":"Fiji","state":"Fiji","matched":true}
+{"label":"GPE","pattern":"Fijian","state":"Fiji","matched":false}
+{"label":"GPE","pattern":"Fijindians","state":"Fiji","matched":false}
+{"label":"GPE","pattern":"Fijindian","state":"Fiji","matched":false}
+{"label":"GPE","pattern":"Gambia","state":"Gambia","matched":true}
+{"label":"GPE","pattern":"Gambians","state":"Gambia","matched":false}
+{"label":"GPE","pattern":"Gambian","state":"Gambia","matched":false}
+{"label":"GPE","pattern":"Georgia","state":"Georgia","matched":true}
+{"label":"GPE","pattern":"Georgians","state":"Georgia","matched":false}
+{"label":"GPE","pattern":"Georgian","state":"Georgia","matched":false}
+{"label":"GPE","pattern":"Germany","state":"Germany","matched":true}
+{"label":"GPE","pattern":"Germans","state":"Germany","matched":false}
+{"label":"GPE","pattern":"German","state":"Germany","matched":false}
+{"label":"GPE","pattern":"Guatemala","state":"Guatemala","matched":true}
+{"label":"GPE","pattern":"Guatemalans","state":"Guatemala","matched":false}
+{"label":"GPE","pattern":"Guatemalan","state":"Guatemala","matched":false}
+{"label":"GPE","pattern":"Guinea","state":"Guinea","matched":true}
+{"label":"GPE","pattern":"Guineans","state":"Guinea","matched":false}
+{"label":"GPE","pattern":"Guinean","state":"Guinea","matched":false}
+{"label":"GPE","pattern":"Haiti","state":"Haiti","matched":true}
+{"label":"GPE","pattern":"Haitians","state":"Haiti","matched":false}
+{"label":"GPE","pattern":"Haitian","state":"Haiti","matched":false}
+{"label":"GPE","pattern":"Honduras","state":"Honduras","matched":true}
+{"label":"GPE","pattern":"Hondurans","state":"Honduras","matched":false}
+{"label":"GPE","pattern":"Honduran","state":"Honduras","matched":false}
+{"label":"GPE","pattern":"Hungary","state":"Hungary","matched":true}
+{"label":"GPE","pattern":"Hungarians","state":"Hungary","matched":false}
+{"label":"GPE","pattern":"Hungarian","state":"Hungary","matched":false}
+{"label":"GPE","pattern":"India","state":"India","matched":true}
+{"label":"GPE","pattern":"Indians","state":"India","matched":false}
+{"label":"GPE","pattern":"Indian","state":"India","matched":false}
+{"label":"GPE","pattern":"Indonesia","state":"Indonesia","matched":true}
+{"label":"GPE","pattern":"Indonesians","state":"Indonesia","matched":false}
+{"label":"GPE","pattern":"Indonesian","state":"Indonesia","matched":false}
+{"label":"GPE","pattern":"Jamaica","state":"Jamaica","matched":true}
+{"label":"GPE","pattern":"Jamaicans","state":"Jamaica","matched":false}
+{"label":"GPE","pattern":"Jamaican","state":"Jamaica","matched":false}
+{"label":"GPE","pattern":"Kenya","state":"Kenya","matched":true}
+{"label":"GPE","pattern":"Kenyans","state":"Kenya","matched":false}
+{"label":"GPE","pattern":"Kenyan","state":"Kenya","matched":false}
+{"label":"GPE","pattern":"Kiribati","state":"Kiribati","matched":true}
+{"label":"GPE","pattern":"Kiribatians","state":"Kiribati","matched":false}
+{"label":"GPE","pattern":"Kiribatian","state":"Kiribati","matched":false}
+{"label":"GPE","pattern":"Kosovo","state":"Kosovo","matched":false}
+{"label":"GPE","pattern":"Kosovars","state":"Kosovo","matched":false}
+{"label":"GPE","pattern":"Kosovar","state":"Kosovo","matched":false}
+{"label":"GPE","pattern":"Latvia","state":"Latvia","matched":true}
+{"label":"GPE","pattern":"Latvians","state":"Latvia","matched":false}
+{"label":"GPE","pattern":"Latvian","state":"Latvia","matched":false}
+{"label":"GPE","pattern":"Liberia","state":"Liberia","matched":true}
+{"label":"GPE","pattern":"Liberians","state":"Liberia","matched":false}
+{"label":"GPE","pattern":"Liberian","state":"Liberia","matched":false}
+{"label":"GPE","pattern":"Libya","state":"Libya","matched":true}
+{"label":"GPE","pattern":"Libyans","state":"Libya","matched":false}
+{"label":"GPE","pattern":"Libyan","state":"Libya","matched":false}
+{"label":"GPE","pattern":"Lithuania","state":"Lithuania","matched":true}
+{"label":"GPE","pattern":"Lithuanians","state":"Lithuania","matched":false}
+{"label":"GPE","pattern":"Lithuanian","state":"Lithuania","matched":false}
+{"label":"GPE","pattern":"Malawi","state":"Malawi","matched":true}
+{"label":"GPE","pattern":"Malawians","state":"Malawi","matched":false}
+{"label":"GPE","pattern":"Malawian","state":"Malawi","matched":false}
+{"label":"GPE","pattern":"Malaysia","state":"Malaysia","matched":true}
+{"label":"GPE","pattern":"Malaysians","state":"Malaysia","matched":false}
+{"label":"GPE","pattern":"Malaysian","state":"Malaysia","matched":false}
+{"label":"GPE","pattern":"Mali","state":"Mali","matched":true}
+{"label":"GPE","pattern":"Malians","state":"Mali","matched":false}
+{"label":"GPE","pattern":"Malian","state":"Mali","matched":false}
+{"label":"GPE","pattern":"Mauritania","state":"Mauritania","matched":true}
+{"label":"GPE","pattern":"Mauritanians","state":"Mauritania","matched":false}
+{"label":"GPE","pattern":"Mauritanian","state":"Mauritania","matched":false}
+{"label":"GPE","pattern":"Mexico","state":"Mexico","matched":true}
+{"label":"GPE","pattern":"Mexicans","state":"Mexico","matched":false}
+{"label":"GPE","pattern":"Mexican","state":"Mexico","matched":false}
+{"label":"GPE","pattern":"Micronesia","state":"Micronesia","matched":true}
+{"label":"GPE","pattern":"Micronesians","state":"Micronesia","matched":false}
+{"label":"GPE","pattern":"Micronesian","state":"Micronesia","matched":false}
+{"label":"GPE","pattern":"Moldova","state":"Moldova","matched":true}
+{"label":"GPE","pattern":"Moldovans","state":"Moldova","matched":false}
+{"label":"GPE","pattern":"Moldovan","state":"Moldova","matched":false}
+{"label":"GPE","pattern":"Mongolia","state":"Mongolia","matched":true}
+{"label":"GPE","pattern":"Mongolians","state":"Mongolia","matched":false}
+{"label":"GPE","pattern":"Mongolian","state":"Mongolia","matched":false}
+{"label":"GPE","pattern":"Monaco","state":"Monaco","matched":true}
+{"label":"GPE","pattern":"Monacans","state":"Monaco","matched":false}
+{"label":"GPE","pattern":"Monacan","state":"Monaco","matched":false}
+{"label":"GPE","pattern":"Morocco","state":"Morocco","matched":true}
+{"label":"GPE","pattern":"Moroccans","state":"Morocco","matched":false}
+{"label":"GPE","pattern":"Moroccan","state":"Morocco","matched":false}
+{"label":"GPE","pattern":"Mozambique","state":"Mozambique","matched":true}
+{"label":"GPE","pattern":"Mozambicans","state":"Mozambique","matched":false}
+{"label":"GPE","pattern":"Mozambican","state":"Mozambique","matched":false}
+{"label":"GPE","pattern":"Namibia","state":"Namibia","matched":true}
+{"label":"GPE","pattern":"Namibians","state":"Namibia","matched":false}
+{"label":"GPE","pattern":"Namibian","state":"Namibia","matched":false}
+{"label":"GPE","pattern":"Nauru","state":"Nauru","matched":true}
+{"label":"GPE","pattern":"Nauruans","state":"Nauru","matched":false}
+{"label":"GPE","pattern":"Nauruan","state":"Nauru","matched":false}
+{"label":"GPE","pattern":"Nicaragua","state":"Nicaragua","matched":true}
+{"label":"GPE","pattern":"Nicaraguans","state":"Nicaragua","matched":false}
+{"label":"GPE","pattern":"Nicaraguan","state":"Nicaragua","matched":false}
+{"label":"GPE","pattern":"Nigeria","state":"Nigeria","matched":true}
+{"label":"GPE","pattern":"Nigerians","state":"Nigeria","matched":false}
+{"label":"GPE","pattern":"Nigerian","state":"Nigeria","matched":false}
+{"label":"GPE","pattern":"North Korea","state":"North Korea","matched":false}
+{"label":"GPE","pattern":"North Koreans","state":"North Korea","matched":false}
+{"label":"GPE","pattern":"North Korean","state":"North Korea","matched":false}
+{"label":"GPE","pattern":"North Macedonia","state":"North Macedonia","matched":true}
+{"label":"GPE","pattern":"Macedonians","state":"North Macedonia","matched":false}
+{"label":"GPE","pattern":"Macedonian","state":"North Macedonia","matched":false}
+{"label":"GPE","pattern":"Palau","state":"Palau","matched":true}
+{"label":"GPE","pattern":"Palauans","state":"Palau","matched":false}
+{"label":"GPE","pattern":"Palauan","state":"Palau","matched":false}
+{"label":"GPE","pattern":"Papua New Guinea","state":"Papua New Guinea","matched":true}
+{"label":"GPE","pattern":"Papua New Guineans","state":"Papua New Guinea","matched":false}
+{"label":"GPE","pattern":"Papua New Guinean","state":"Papua New Guinea","matched":false}
+{"label":"GPE","pattern":"Paraguay","state":"Paraguay","matched":true}
+{"label":"GPE","pattern":"Paraguayans","state":"Paraguay","matched":false}
+{"label":"GPE","pattern":"Paraguayan","state":"Paraguay","matched":false}
+{"label":"GPE","pattern":"Persia","state":"Iran","matched":false}
+{"label":"GPE","pattern":"Persians","state":"Iran","matched":false}
+{"label":"GPE","pattern":"Persian","state":"Iran","matched":false}
+{"label":"GPE","pattern":"Puerto Rico","state":"Puerto Rico","matched":true}
+{"label":"GPE","pattern":"Puerto Ricans","state":"Puerto Rico","matched":false}
+{"label":"GPE","pattern":"Puerto Rican","state":"Puerto Rico","matched":false}
+{"label":"GPE","pattern":"Romania","state":"Romania","matched":true}
+{"label":"GPE","pattern":"Romanians","state":"Romania","matched":false}
+{"label":"GPE","pattern":"Romanian","state":"Romania","matched":false}
+{"label":"GPE","pattern":"Russia","state":"Russia","matched":false}
+{"label":"GPE","pattern":"Russians","state":"Russia","matched":false}
+{"label":"GPE","pattern":"Russian","state":"Russia","matched":false}
+{"label":"GPE","pattern":"Rwanda","state":"Rwanda","matched":true}
+{"label":"GPE","pattern":"Rwandans","state":"Rwanda","matched":false}
+{"label":"GPE","pattern":"Rwandan","state":"Rwanda","matched":false}
+{"label":"GPE","pattern":"Saint Lucia","state":"Saint Lucia","matched":true}
+{"label":"GPE","pattern":"Saint Lucians","state":"Saint Lucia","matched":false}
+{"label":"GPE","pattern":"Saint Lucian","state":"Saint Lucia","matched":false}
+{"label":"GPE","pattern":"Samoa","state":"Samoa","matched":true}
+{"label":"GPE","pattern":"Samoans","state":"Samoa","matched":false}
+{"label":"GPE","pattern":"Samoan","state":"Samoa","matched":false}
+{"label":"GPE","pattern":"Saudi Arabia","state":"Saudi Arabia","matched":true}
+{"label":"GPE","pattern":"Saudi Arabians","state":"Saudi Arabia","matched":false}
+{"label":"GPE","pattern":"Saudi Arabian","state":"Saudi Arabia","matched":false}
+{"label":"GPE","pattern":"Serbia","state":"Serbia","matched":true}
+{"label":"GPE","pattern":"Serbians","state":"Serbia","matched":false}
+{"label":"GPE","pattern":"Serbian","state":"Serbia","matched":false}
+{"label":"GPE","pattern":"Sierra Leone","state":"Sierra Leone","matched":true}
+{"label":"GPE","pattern":"Sierra Leoneans","state":"Sierra Leone","matched":false}
+{"label":"GPE","pattern":"Sierra Leonean","state":"Sierra Leone","matched":false}
+{"label":"GPE","pattern":"Singapore","state":"Singapore","matched":true}
+{"label":"GPE","pattern":"Singaporeans","state":"Singapore","matched":false}
+{"label":"GPE","pattern":"Singaporean","state":"Singapore","matched":false}
+{"label":"GPE","pattern":"Slovakia","state":"Slovakia","matched":true}
+{"label":"GPE","pattern":"Slovaks","state":"Slovakia","matched":false}
+{"label":"GPE","pattern":"Slovenia","state":"Slovenia","matched":true}
+{"label":"GPE","pattern":"Slovenians","state":"Slovenia","matched":false}
+{"label":"GPE","pattern":"Slovenian","state":"Slovenia","matched":false}
+{"label":"GPE","pattern":"South Africa","state":"South Africa","matched":true}
+{"label":"GPE","pattern":"South Africans","state":"South Africa","matched":false}
+{"label":"GPE","pattern":"South African","state":"South Africa","matched":false}
+{"label":"GPE","pattern":"South Korea","state":"South Korea","matched":false}
+{"label":"GPE","pattern":"South Koreans","state":"South Korea","matched":false}
+{"label":"GPE","pattern":"South Korean","state":"South Korea","matched":false}
+{"label":"GPE","pattern":"Sri Lanka","state":"Sri Lanka","matched":true}
+{"label":"GPE","pattern":"Sri Lankans","state":"Sri Lanka","matched":false}
+{"label":"GPE","pattern":"Sri Lankan","state":"Sri Lanka","matched":false}
+{"label":"GPE","pattern":"St. Kitts and Nevis","state":"St. Kitts and Nevis","matched":false}
+{"label":"GPE","pattern":"Kittitians","state":"St. Kitts and Nevis","matched":false}
+{"label":"GPE","pattern":"Kittitian","state":"St. Kitts and Nevis","matched":false}
+{"label":"GPE","pattern":"Nevisians","state":"St. Kitts and Nevis","matched":false}
+{"label":"GPE","pattern":"Nevisian","state":"St. Kitts and Nevis","matched":false}
+{"label":"GPE","pattern":"Syria","state":"Syria","matched":false}
+{"label":"GPE","pattern":"Syrians","state":"Syria","matched":false}
+{"label":"GPE","pattern":"Syrian","state":"Syria","matched":false}
+{"label":"GPE","pattern":"Tanzania","state":"Tanzania","matched":true}
+{"label":"GPE","pattern":"Tanzanians","state":"Tanzania","matched":false}
+{"label":"GPE","pattern":"Tanzanian","state":"Tanzania","matched":false}
+{"label":"GPE","pattern":"Tonga","state":"Tonga","matched":true}
+{"label":"GPE","pattern":"Tongans","state":"Tonga","matched":false}
+{"label":"GPE","pattern":"Tongan","state":"Tonga","matched":false}
+{"label":"GPE","pattern":"Tunisia","state":"Tunisia","matched":true}
+{"label":"GPE","pattern":"Tunisians","state":"Tunisia","matched":false}
+{"label":"GPE","pattern":"Tunisian","state":"Tunisia","matched":false}
+{"label":"GPE","pattern":"Tuvalu","state":"Tuvalu","matched":true}
+{"label":"GPE","pattern":"Tuvaluans","state":"Tuvalu","matched":false}
+{"label":"GPE","pattern":"Tuvaluan","state":"Tuvalu","matched":false}
+{"label":"GPE","pattern":"Uganda","state":"Uganda","matched":true}
+{"label":"GPE","pattern":"Ugandans","state":"Uganda","matched":false}
+{"label":"GPE","pattern":"Ugandan","state":"Uganda","matched":false}
+{"label":"GPE","pattern":"Uruguay","state":"Uruguay","matched":true}
+{"label":"GPE","pattern":"Uruguayans","state":"Uruguay","matched":false}
+{"label":"GPE","pattern":"Uruguayan","state":"Uruguay","matched":false}
+{"label":"GPE","pattern":"Vanuatu","state":"Vanuatu","matched":true}
+{"label":"GPE","pattern":"Vanuatuans","state":"Vanuatu","matched":false}
+{"label":"GPE","pattern":"Vanuatuan","state":"Vanuatu","matched":false}
+{"label":"GPE","pattern":"Venezuela","state":"Venezuela","matched":true}
+{"label":"GPE","pattern":"Venezuelans","state":"Venezuela","matched":false}
+{"label":"GPE","pattern":"Venezuelan","state":"Venezuela","matched":false}
+{"label":"GPE","pattern":"Zambia","state":"Zambia","matched":true}
+{"label":"GPE","pattern":"Zambians","state":"Zambia","matched":false}
+{"label":"GPE","pattern":"Zambian","state":"Zambia","matched":false}
+{"label":"GPE","pattern":"Zimbabwe","state":"Zimbabwe","matched":true}
+{"label":"GPE","pattern":"Zimbabweans","state":"Zimbabwe","matched":false}
+{"label":"GPE","pattern":"Zimbabwean","state":"Zimbabwe","matched":false}
+{"label":"GPE","pattern":"Abkhazia","state":"Abkhazia","matched":false}
+{"label":"GPE","pattern":"Abkhazians","state":"Abkhazia","matched":false}
+{"label":"GPE","pattern":"Abkhazian","state":"Abkhazia","matched":false}
+{"label":"GPE","pattern":"Emirate of Abu Dhabi","state":"Abu Dhabi","matched":false}
+{"label":"GPE","pattern":"Abu Dhabians","state":"Abu Dhabi","matched":false}
+{"label":"GPE","pattern":"Abu Dhabian","state":"Abu Dhabi","matched":false}
+{"label":"GPE","pattern":"Azerbaijan","state":"Azerbaijan","matched":true}
+{"label":"GPE","pattern":"Azerbaijanians","state":"Azerbaijan","matched":false}
+{"label":"GPE","pattern":"Azerbaijanian","state":"Azerbaijan","matched":false}
+{"label":"GPE","pattern":"Bahamas","state":"Bahamas","matched":true}
+{"label":"GPE","pattern":"Bahamians","state":"Bahamas","matched":false}
+{"label":"GPE","pattern":"Bahamian","state":"Bahamas","matched":false}
+{"label":"GPE","pattern":"Barbados","state":"Barbados","matched":true}
+{"label":"GPE","pattern":"Barbadians","state":"Barbados","matched":false}
+{"label":"GPE","pattern":"Barbadian","state":"Barbados","matched":false}
+{"label":"GPE","pattern":"Belarus","state":"Belarus","matched":true}
+{"label":"GPE","pattern":"Belarusians","state":"Belarus","matched":false}
+{"label":"GPE","pattern":"Belarusian","state":"Belarus","matched":false}
+{"label":"GPE","pattern":"Belgium","state":"Belgium","matched":true}
+{"label":"GPE","pattern":"Belgians","state":"Belgium","matched":false}
+{"label":"GPE","pattern":"Belgian","state":"Belgium","matched":false}
+{"label":"GPE","pattern":"Brazil","state":"Brazil","matched":true}
+{"label":"GPE","pattern":"Brazilians","state":"Brazil","matched":false}
+{"label":"GPE","pattern":"Brazilian","state":"Brazil","matched":false}
+{"label":"GPE","pattern":"Cameroon","state":"Cameroon","matched":true}
+{"label":"GPE","pattern":"Cameroonians","state":"Cameroon","matched":false}
+{"label":"GPE","pattern":"Cameroonian","state":"Cameroon","matched":false}
+{"label":"GPE","pattern":"Canada","state":"Canada","matched":true}
+{"label":"GPE","pattern":"Canadians","state":"Canada","matched":false}
+{"label":"GPE","pattern":"Canadian","state":"Canada","matched":false}
+{"label":"GPE","pattern":"Cayman Islands","state":"Cayman Islands","matched":true}
+{"label":"GPE","pattern":"Caymanians","state":"Cayman Islands","matched":false}
+{"label":"GPE","pattern":"Caymanian","state":"Cayman Islands","matched":false}
+{"label":"GPE","pattern":"Chad","state":"Chad","matched":true}
+{"label":"GPE","pattern":"Chadians","state":"Chad","matched":false}
+{"label":"GPE","pattern":"Chadian","state":"Chad","matched":false}
+{"label":"GPE","pattern":"Comoros","state":"Comoros","matched":true}
+{"label":"GPE","pattern":"Comorians","state":"Comoros","matched":false}
+{"label":"GPE","pattern":"Comorian","state":"Comoros","matched":false}
+{"label":"GPE","pattern":"Ecuador","state":"Ecuador","matched":true}
+{"label":"GPE","pattern":"Ecuadorians","state":"Ecuador","matched":false}
+{"label":"GPE","pattern":"Ecuadorian","state":"Ecuador","matched":false}
+{"label":"GPE","pattern":"Egypt","state":"Egypt","matched":true}
+{"label":"GPE","pattern":"Egyptians","state":"Egypt","matched":false}
+{"label":"GPE","pattern":"Egyptian","state":"Egypt","matched":false}
+{"label":"GPE","pattern":"Ghana","state":"Ghana","matched":true}
+{"label":"GPE","pattern":"Ghanaians","state":"Ghana","matched":false}
+{"label":"GPE","pattern":"Ghanaian","state":"Ghana","matched":false}
+{"label":"GPE","pattern":"Gibraltar","state":"Gibraltar","matched":true}
+{"label":"GPE","pattern":"Gibraltarians","state":"Gibraltar","matched":false}
+{"label":"GPE","pattern":"Gibraltarian","state":"Gibraltar","matched":false}
+{"label":"GPE","pattern":"Grenada","state":"Grenada","matched":true}
+{"label":"GPE","pattern":"Grenadians","state":"Grenada","matched":false}
+{"label":"GPE","pattern":"Grenadian","state":"Grenada","matched":false}
+{"label":"GPE","pattern":"Iran","state":"Iran","matched":true}
+{"label":"GPE","pattern":"Iranians","state":"Iran","matched":false}
+{"label":"GPE","pattern":"Iranian","state":"Iran","matched":false}
+{"label":"GPE","pattern":"Italy","state":"Italy","matched":true}
+{"label":"GPE","pattern":"Italians","state":"Italy","matched":false}
+{"label":"GPE","pattern":"Italian","state":"Italy","matched":false}
+{"label":"GPE","pattern":"Jordan","state":"Jordan","matched":true}
+{"label":"GPE","pattern":"Jordanians","state":"Jordan","matched":false}
+{"label":"GPE","pattern":"Jordanian","state":"Jordan","matched":false}
+{"label":"GPE","pattern":"Laos","state":"Laos","matched":true}
+{"label":"GPE","pattern":"Laotians","state":"Laos","matched":false}
+{"label":"GPE","pattern":"Laotian","state":"Laos","matched":false}
+{"label":"GPE","pattern":"Maldives","state":"Maldives","matched":true}
+{"label":"GPE","pattern":"Maldivians","state":"Maldives","matched":false}
+{"label":"GPE","pattern":"Maldivian","state":"Maldives","matched":false}
+{"label":"GPE","pattern":"Palestine","state":"Palestine","matched":true}
+{"label":"GPE","pattern":"Palestinians","state":"Palestine","matched":false}
+{"label":"GPE","pattern":"Palestinian","state":"Palestine","matched":false}
+{"label":"GPE","pattern":"Peru","state":"Peru","matched":true}
+{"label":"GPE","pattern":"Peruvians","state":"Peru","matched":false}
+{"label":"GPE","pattern":"Peruvian","state":"Peru","matched":false}
+{"label":"GPE","pattern":"Saint Vincent","state":"Saint Vincent","matched":false}
+{"label":"GPE","pattern":"Vincentians","state":"Saint Vincent","matched":false}
+{"label":"GPE","pattern":"Vincentian","state":"Saint Vincent","matched":false}
+{"label":"GPE","pattern":"Trinidad and Tobago","state":"Trinidad and Tobago","matched":true}
+{"label":"GPE","pattern":"Trinidadians","state":"Trinidad and Tobago","matched":false}
+{"label":"GPE","pattern":"Trinidadian","state":"Trinidad and Tobago","matched":false}
+{"label":"GPE","pattern":"Tobagonians","state":"Trinidad and Tobago","matched":false}
+{"label":"GPE","pattern":"Tobagonian","state":"Trinidad and Tobago","matched":false}
+{"label":"GPE","pattern":"Ukraine","state":"Ukraine","matched":true}
+{"label":"GPE","pattern":"Ukrainians","state":"Ukraine","matched":false}
+{"label":"GPE","pattern":"Ukrainian","state":"Ukraine","matched":false}
+{"label":"GPE","pattern":"Guam","state":"Guam","matched":true}
+{"label":"GPE","pattern":"Guamanians","state":"Guam","matched":false}
+{"label":"GPE","pattern":"Guamanian","state":"Guam","matched":false}
+{"label":"GPE","pattern":"Panama","state":"Panama","matched":true}
+{"label":"GPE","pattern":"Panamanians","state":"Panama","matched":false}
+{"label":"GPE","pattern":"Panamanian","state":"Panama","matched":false}
+{"label":"GPE","pattern":"Argentina","state":"Argentina","matched":true}
+{"label":"GPE","pattern":"Argentines","state":"Argentina","matched":false}
+{"label":"GPE","pattern":"Argentine","state":"Argentina","matched":false}
+{"label":"GPE","pattern":"Montenegro","state":"Montenegro","matched":true}
+{"label":"GPE","pattern":"Montenegrins","state":"Montenegro","matched":false}
+{"label":"GPE","pattern":"Montenegrin","state":"Montenegro","matched":false}
+{"label":"GPE","pattern":"Philippines","state":"Philippines","matched":true}
+{"label":"GPE","pattern":"Philippine","state":"Philippines","matched":false}
+{"label":"GPE","pattern":"Filipino","state":"Philippines","matched":false}
+{"label":"GPE","pattern":"El Salvador","state":"El Salvador","matched":true}
+{"label":"GPE","pattern":"Philippines","state":"Philippines","matched":true}
+{"label":"GPE","pattern":"Filipinos","state":"Philippines","matched":false}
+{"label":"GPE","pattern":"Luxembourg","state":"Luxembourg","matched":true}
+{"label":"GPE","pattern":"Luxembourgers","state":"Luxembourg","matched":false}
+{"label":"GPE","pattern":"Iceland","state":"Iceland","matched":true}
+{"label":"GPE","pattern":"Icelanders","state":"Iceland","matched":false}
+{"label":"GPE","pattern":"Icelandic","state":"Iceland","matched":false}
+{"label":"GPE","pattern":"Britain","state":"Britain","matched":false}
+{"label":"GPE","pattern":"British","state":"Britain","matched":false}
+{"label":"GPE","pattern":"Denmark","state":"Denmark","matched":true}
+{"label":"GPE","pattern":"Danish","state":"Denmark","matched":false}
+{"label":"GPE","pattern":"England","state":"England","matched":false}
+{"label":"GPE","pattern":"English","state":"England","matched":false}
+{"label":"GPE","pattern":"Finland","state":"Finland","matched":true}
+{"label":"GPE","pattern":"Finnish","state":"Finland","matched":false}
+{"label":"GPE","pattern":"Luxembourg","state":"Luxembourg","matched":true}
+{"label":"GPE","pattern":"Luxembourgish","state":"Luxembourg","matched":false}
+{"label":"GPE","pattern":"Poland","state":"Poland","matched":true}
+{"label":"GPE","pattern":"Polish","state":"Poland","matched":false}
+{"label":"GPE","pattern":"Scotland","state":"Scotland","matched":false}
+{"label":"GPE","pattern":"Scottish","state":"Scotland","matched":false}
+{"label":"GPE","pattern":"Spain","state":"Spain","matched":true}
+{"label":"GPE","pattern":"Spanish","state":"Spain","matched":false}
+{"label":"GPE","pattern":"Sweden","state":"Sweden","matched":true}
+{"label":"GPE","pattern":"Swedish","state":"Sweden","matched":false}
+{"label":"GPE","pattern":"Turkey","state":"Turkey","matched":true}
+{"label":"GPE","pattern":"Turkish","state":"Turkey","matched":false}
+{"label":"GPE","pattern":"Wales","state":"Wales","matched":false}
+{"label":"GPE","pattern":"Welsh","state":"Wales","matched":false}
+{"label":"GPE","pattern":"Slovenia","state":"Slovenia","matched":true}
+{"label":"GPE","pattern":"Slovenes","state":"Slovenia","matched":false}
+{"label":"GPE","pattern":"Benin","state":"Benin","matched":true}
+{"label":"GPE","pattern":"Beninese","state":"Benin","matched":false}
+{"label":"GPE","pattern":"Bhutan","state":"Bhutan","matched":true}
+{"label":"GPE","pattern":"Bhutanese","state":"Bhutan","matched":false}
+{"label":"GPE","pattern":"Burkina Faso","state":"Burkina Faso","matched":true}
+{"label":"GPE","pattern":"Burkinese","state":"Burkina Faso","matched":false}
+{"label":"GPE","pattern":"China","state":"China","matched":true}
+{"label":"GPE","pattern":"Chinese","state":"China","matched":false}
+{"label":"GPE","pattern":"Congo","state":"Congo","matched":true}
+{"label":"GPE","pattern":"Congolese","state":"Congo","matched":false}
+{"label":"GPE","pattern":"Gabon","state":"Gabon","matched":true}
+{"label":"GPE","pattern":"Gabonese","state":"Gabon","matched":false}
+{"label":"GPE","pattern":"Guyana","state":"Guyana","matched":true}
+{"label":"GPE","pattern":"Guyanese","state":"Guyana","matched":false}
+{"label":"GPE","pattern":"Japan","state":"Japan","matched":true}
+{"label":"GPE","pattern":"Japanese","state":"Japan","matched":false}
+{"label":"GPE","pattern":"Lebanon","state":"Lebanon","matched":true}
+{"label":"GPE","pattern":"Lebanese","state":"Lebanon","matched":false}
+{"label":"GPE","pattern":"Malta","state":"Malta","matched":true}
+{"label":"GPE","pattern":"Maltese","state":"Malta","matched":false}
+{"label":"GPE","pattern":"Marshall Islands","state":"Marshall Islands","matched":true}
+{"label":"GPE","pattern":"Marshallese","state":"Marshall Islands","matched":false}
+{"label":"GPE","pattern":"Myanmar","state":"Myanmar","matched":false}
+{"label":"GPE","pattern":"Burma","state":"Myanmar","matched":false}
+{"label":"GPE","pattern":"Burmese","state":"Myanmar","matched":false}
+{"label":"GPE","pattern":"Portugal","state":"Portugal","matched":true}
+{"label":"GPE","pattern":"Portuguese","state":"Portugal","matched":false}
+{"label":"GPE","pattern":"Rwanda","state":"Rwanda","matched":true}
+{"label":"GPE","pattern":"Rwandese","state":"Rwanda","matched":false}
+{"label":"GPE","pattern":"Rwandan","state":"Rwanda","matched":false}
+{"label":"GPE","pattern":"Senegal","state":"Senegal","matched":true}
+{"label":"GPE","pattern":"Senegalese","state":"Senegal","matched":false}
+{"label":"GPE","pattern":"San Marino","state":"San Marino","matched":true}
+{"label":"GPE","pattern":"Sammarinese","state":"San Marino","matched":false}
+{"label":"GPE","pattern":"Senegal","state":"Senegal","matched":true}
+{"label":"GPE","pattern":"Senegalese","state":"Senegal","matched":false}
+{"label":"GPE","pattern":"Suriname","state":"Suriname","matched":true}
+{"label":"GPE","pattern":"Surinamese","state":"Suriname","matched":false}
+{"label":"GPE","pattern":"Taiwan","state":"Taiwan","matched":true}
+{"label":"GPE","pattern":"Taiwanese","state":"Taiwan","matched":false}
+{"label":"GPE","pattern":"Togo","state":"Togo","matched":true}
+{"label":"GPE","pattern":"Togolese","state":"Togo","matched":false}
+{"label":"GPE","pattern":"Vietnam","state":"Vietnam","matched":true}
+{"label":"GPE","pattern":"Viet-Nam","state":"Vietnam","matched":true}
+{"label":"GPE","pattern":"Vietnamese","state":"Vietnam","matched":false}
+{"label":"GPE","pattern":"Viet-Namese","state":"Vietnam","matched":false}
+{"label":"GPE","pattern":"Afghanistan","state":"Afghanistan","matched":true}
+{"label":"GPE","pattern":"Afghanistanis","state":"Afghanistan","matched":false}
+{"label":"GPE","pattern":"Azerbaijan","state":"Azerbaijan","matched":true}
+{"label":"GPE","pattern":"Azerbaijanis","state":"Azerbaijan","matched":false}
+{"label":"GPE","pattern":"Bahrain","state":"Bahrain","matched":true}
+{"label":"GPE","pattern":"Bahrainis","state":"Bahrain","matched":false}
+{"label":"GPE","pattern":"Bangladesh","state":"Bangladesh","matched":true}
+{"label":"GPE","pattern":"Bangladeshis","state":"Bangladesh","matched":false}
+{"label":"GPE","pattern":"Eswatini","state":"Eswatini","matched":true}
+{"label":"GPE","pattern":"Swaziland","state":"Eswatini","matched":false}
+{"label":"GPE","pattern":"Swazis","state":"Eswatini","matched":false}
+{"label":"GPE","pattern":"Swatis","state":"Eswatini","matched":false}
+{"label":"GPE","pattern":"Iraq","state":"Iraq","matched":true}
+{"label":"GPE","pattern":"Iraqis","state":"Iraq","matched":false}
+{"label":"GPE","pattern":"Israel","state":"Israel","matched":true}
+{"label":"GPE","pattern":"Israelis","state":"Israel","matched":false}
+{"label":"GPE","pattern":"Kazakhstan","state":"Kazakhstan","matched":true}
+{"label":"GPE","pattern":"Kazakhstanis","state":"Kazakhstan","matched":false}
+{"label":"GPE","pattern":"Kuwait","state":"Kuwait","matched":true}
+{"label":"GPE","pattern":"Kuwaitis","state":"Kuwait","matched":false}
+{"label":"GPE","pattern":"Kyrgyzstan","state":"Kyrgyzstan","matched":true}
+{"label":"GPE","pattern":"Kyrgyzstanis","state":"Kyrgyzstan","matched":false}
+{"label":"GPE","pattern":"Nepal","state":"Nepal","matched":true}
+{"label":"GPE","pattern":"Nepali","state":"Nepal","matched":true}
+{"label":"GPE","pattern":"Nepalis","state":"Nepal","matched":false}
+{"label":"GPE","pattern":"Nepalese","state":"Nepal","matched":false}
+{"label":"GPE","pattern":"Oman","state":"Oman","matched":true}
+{"label":"GPE","pattern":"Omanis","state":"Oman","matched":false}
+{"label":"GPE","pattern":"Pakistan","state":"Pakistan","matched":true}
+{"label":"GPE","pattern":"Pakistanis","state":"Pakistan","matched":false}
+{"label":"GPE","pattern":"Qatar","state":"Qatar","matched":true}
+{"label":"GPE","pattern":"Qataris","state":"Qatar","matched":false}
+{"label":"GPE","pattern":"Qatari","state":"Qatar","matched":false}
+{"label":"GPE","pattern":"Somalia","state":"Somalia","matched":true}
+{"label":"GPE","pattern":"Somalis","state":"Somalia","matched":false}
+{"label":"GPE","pattern":"Somalian","state":"Somalia","matched":false}
+{"label":"GPE","pattern":"Tajikistan","state":"Tajikistan","matched":true}
+{"label":"GPE","pattern":"Tajikistanis","state":"Tajikistan","matched":false}
+{"label":"GPE","pattern":"Tajikistani","state":"Tajikistan","matched":false}
+{"label":"GPE","pattern":"Thailand","state":"Thailand","matched":true}
+{"label":"GPE","pattern":"Thais","state":"Thailand","matched":false}
+{"label":"GPE","pattern":"Thai","state":"Thailand","matched":false}
+{"label":"GPE","pattern":"Trinidad and Tobago","state":"Trinidad and Tobago","matched":true}
+{"label":"GPE","pattern":"Trini","state":"Trinidad and Tobago","matched":false}
+{"label":"GPE","pattern":"Turkmenistan","state":"Turkmenistan","matched":true}
+{"label":"GPE","pattern":"Turkmenistanis","state":"Turkmenistan","matched":false}
+{"label":"GPE","pattern":"Turkmenistani","state":"Turkmenistan","matched":false}
+{"label":"GPE","pattern":"United Arab Emirates","state":"United Arab Emirates","matched":true}
+{"label":"GPE","pattern":"Emiratis","state":"United Arab Emirates","matched":false}
+{"label":"GPE","pattern":"Uzbekistan","state":"Uzbekistan","matched":true}
+{"label":"GPE","pattern":"Uzbekistanis","state":"Uzbekistan","matched":false}
+{"label":"GPE","pattern":"Yemen","state":"Yemen","matched":true}
+{"label":"GPE","pattern":"Yemenis","state":"Yemen","matched":false}
+{"label":"GPE","pattern":"Yemeni","state":"Yemen","matched":false}
+{"label":"GPE","pattern":"Cyprus","state":"Cyprus","matched":true}
+{"label":"GPE","pattern":"Cypriots","state":"Cyprus","matched":false}
+{"label":"GPE","pattern":"Cypriot","state":"Cyprus","matched":false}
+{"label":"GPE","pattern":"Greece","state":"Greece","matched":true}
+{"label":"GPE","pattern":"Greeks","state":"Greece","matched":false}
+{"label":"GPE","pattern":"Greek","state":"Greece","matched":false}
+{"label":"GPE","pattern":"Slovakia","state":"Slovakia","matched":true}
+{"label":"GPE","pattern":"Slovaks","state":"Slovakia","matched":false}
+{"label":"GPE","pattern":"Slovak","state":"Slovakia","matched":false}
+{"label":"GPE","pattern":"Norway","state":"Norway","matched":true}
+{"label":"GPE","pattern":"Norwegians","state":"Norway","matched":false}
+{"label":"GPE","pattern":"Norwegian","state":"Norway","matched":false}
+{"label":"GPE","pattern":"Lesotho","state":"Lesotho","matched":true}
+{"label":"GPE","pattern":"Lesothonians","state":"Lesotho","matched":false}
+{"label":"GPE","pattern":"Lesothonian","state":"Lesotho","matched":false}
+{"label":"GPE","pattern":"Peru","state":"Peru","matched":true}
+{"label":"GPE","pattern":"Peruvians","state":"Peru","matched":false}
+{"label":"GPE","pattern":"Peruvian","state":"Peru","matched":false}
+{"label":"GPE","pattern":"Benin","state":"Benin","matched":true}
+{"label":"GPE","pattern":"Beninois","state":"Benin","matched":false}
+{"label":"GPE","pattern":"Gabon","state":"Gabon","matched":true}
+{"label":"GPE","pattern":"Gabonais","state":"Gabon","matched":false}
+{"label":"GPE","pattern":"Niger","state":"Niger","matched":true}
+{"label":"GPE","pattern":"Nigerois","state":"Niger","matched":false}
+{"label":"GPE","pattern":"Seychelles","state":"Seychelles","matched":true}
+{"label":"GPE","pattern":"Seychellois","state":"Seychelles","matched":false}
+{"label":"GPE","pattern":"Botswana","state":"Botswana","matched":true}
+{"label":"GPE","pattern":"Motswana","state":"Botswana","matched":false}
+{"label":"GPE","pattern":"Botswana","state":"Botswana","matched":true}
+{"label":"GPE","pattern":"Motswana","state":"Botswana","matched":false}
+{"label":"GPE","pattern":"Burundi","state":"Burundi","matched":true}
+{"label":"GPE","pattern":"Umurundi","state":"Burundi","matched":false}
+{"label":"GPE","pattern":"Eswatini","state":"Eswatini","matched":true}
+{"label":"GPE","pattern":"Liswati","state":"Eswatini","matched":false}
+{"label":"GPE","pattern":"Lesotho","state":"Lesotho","matched":true}
+{"label":"GPE","pattern":"Mosotho","state":"Lesotho","matched":false}
+{"label":"GPE","pattern":"Cyprus","state":"Cyprus","matched":true}
+{"label":"GPE","pattern":"Cypriots","state":"Cyprus","matched":false}
+{"label":"GPE","pattern":"Guinea Bissau","state":"Guinea-Bissau","matched":false}
+{"label":"GPE","pattern":"Bissau-Guinean","state":"Guinea-Bissau","matched":false}
+{"label":"GPE","pattern":"Madagascar","state":"Madagascar","matched":true}
+{"label":"GPE","pattern":"Malagasy","state":"Madagascar","matched":false}
+{"label":"GPE","pattern":"Uruguay","state":"Uruguay","matched":true}
+{"label":"GPE","pattern":"Afghanistan","state":"Afghanistan","matched":true}
+{"label":"GPE","pattern":"Afghans","state":"Afghanistan","matched":false}
+{"label":"GPE","pattern":"Afghan","state":"Afghanistan","matched":false}
+{"label":"GPE","pattern":"Albania","state":"Albania","matched":true}
+{"label":"GPE","pattern":"Albanians","state":"Albania","matched":false}
+{"label":"GPE","pattern":"Albanian","state":"Albania","matched":false}
+{"label":"GPE","pattern":"Azerbaijan","state":"Azerbaijan","matched":true}
+{"label":"GPE","pattern":"Azerbaijanis","state":"Azerbaijan","matched":false}
+{"label":"GPE","pattern":"Azeris","state":"Azerbaijan","matched":false}
+{"label":"GPE","pattern":"Bengal","state":"Bangladesh","matched":false}
+{"label":"GPE","pattern":"Bengali","state":"Bangladesh","matched":false}
+{"label":"GPE","pattern":"Bulgaria","state":"Bulgaria","matched":true}
+{"label":"GPE","pattern":"Bulgarians","state":"Bulgaria","matched":false}
+{"label":"GPE","pattern":"Bulgarian","state":"Bulgaria","matched":false}
+{"label":"GPE","pattern":"Cambodia","state":"Cambodia","matched":true}
+{"label":"GPE","pattern":"Khmers","state":"Cambodia","matched":false}
+{"label":"GPE","pattern":"Khmer","state":"Cambodia","matched":false}
+{"label":"GPE","pattern":"China","state":"China","matched":true}
+{"label":"GPE","pattern":"Chinese","state":"China","matched":false}
+{"label":"GPE","pattern":"Croatia","state":"Croatia","matched":true}
+{"label":"GPE","pattern":"Croats","state":"Croatia","matched":false}
+{"label":"GPE","pattern":"Croat","state":"Croatia","matched":false}
+{"label":"GPE","pattern":"Czech Republic","state":"Czechia","matched":false}
+{"label":"GPE","pattern":"Czechs","state":"Czechia","matched":false}
+{"label":"GPE","pattern":"Czech","state":"Czechia","matched":false}
+{"label":"GPE","pattern":"Denmark","state":"Denmark","matched":true}
+{"label":"GPE","pattern":"Danes","state":"Denmark","matched":false}
+{"label":"GPE","pattern":"Egypt","state":"Egypt","matched":true}
+{"label":"GPE","pattern":"Egyptians","state":"Egypt","matched":false}
+{"label":"GPE","pattern":"Egyptian","state":"Egypt","matched":false}
+{"label":"GPE","pattern":"England","state":"England","matched":false}
+{"label":"GPE","pattern":"English","state":"England","matched":false}
+{"label":"GPE","pattern":"Eswatini","state":"Eswatini","matched":true}
+{"label":"GPE","pattern":"Swazis","state":"Eswatini","matched":false}
+{"label":"GPE","pattern":"Swatis","state":"Eswatini","matched":false}
+{"label":"GPE","pattern":"Finland","state":"Finland","matched":true}
+{"label":"GPE","pattern":"Finn","state":"Finland","matched":false}
+{"label":"GPE","pattern":"France","state":"France","matched":true}
+{"label":"GPE","pattern":"French","state":"France","matched":false}
+{"label":"GPE","pattern":"United Kingdom","state":"United Kingdom","matched":false}
+{"label":"GPE","pattern":"British","state":"Britain","matched":false}
+{"label":"GPE","pattern":"Haiti","state":"Haiti","matched":true}
+{"label":"GPE","pattern":"Haitian","state":"Haiti","matched":false}
+{"label":"GPE","pattern":"Haitians","state":"Haiti","matched":false}
+{"label":"GPE","pattern":"Hungary","state":"Hungary","matched":true}
+{"label":"GPE","pattern":"Hungarians","state":"Hungary","matched":false}
+{"label":"GPE","pattern":"Hungarian","state":"Hungary","matched":false}
+{"label":"GPE","pattern":"Magyars","state":"Hungary","matched":false}
+{"label":"GPE","pattern":"India","state":"India","matched":true}
+{"label":"GPE","pattern":"Indians","state":"India","matched":false}
+{"label":"GPE","pattern":"Indian","state":"India","matched":false}
+{"label":"GPE","pattern":"Indonesia","state":"Indonesia","matched":true}
+{"label":"GPE","pattern":"Indonesians","state":"Indonesia","matched":false}
+{"label":"GPE","pattern":"Indonesian","state":"Indonesia","matched":false}
+{"label":"GPE","pattern":"Iran","state":"Iran","matched":true}
+{"label":"GPE","pattern":"Iranians","state":"Iran","matched":false}
+{"label":"GPE","pattern":"Iranian","state":"Iran","matched":false}
+{"label":"GPE","pattern":"Persians","state":"Iran","matched":false}
+{"label":"GPE","pattern":"Persian","state":"Iran","matched":false}
+{"label":"GPE","pattern":"Ireland","state":"Ireland","matched":true}
+{"label":"GPE","pattern":"Irish","state":"Ireland","matched":false}
+{"label":"GPE","pattern":"Israel","state":"Israel","matched":true}
+{"label":"GPE","pattern":"Israeli","state":"Israel","matched":false}
+{"label":"GPE","pattern":"Kazakhstan","state":"Kazakhstan","matched":true}
+{"label":"GPE","pattern":"Kazakhs","state":"Kazakhstan","matched":false}
+{"label":"GPE","pattern":"Kyrgyzstan","state":"Kyrgyzstan","matched":true}
+{"label":"GPE","pattern":"Kyrgyzs","state":"Kyrgyzstan","matched":false}
+{"label":"GPE","pattern":"Madagascar","state":"Madagascar","matched":true}
+{"label":"GPE","pattern":"Mali","state":"Mali","matched":true}
+{"label":"GPE","pattern":"Malian","state":"Mali","matched":false}
+{"label":"GPE","pattern":"Malta","state":"Malta","matched":true}
+{"label":"GPE","pattern":"Maltese","state":"Malta","matched":false}
+{"label":"GPE","pattern":"Mongolia","state":"Mongolia","matched":true}
+{"label":"GPE","pattern":"Mongolian","state":"Mongolia","matched":false}
+{"label":"GPE","pattern":"Montenegro","state":"Montenegro","matched":true}
+{"label":"GPE","pattern":"Montenegrins","state":"Montenegro","matched":false}
+{"label":"GPE","pattern":"Montenegrin","state":"Montenegro","matched":false}
+{"label":"GPE","pattern":"Morocco","state":"Morocco","matched":true}
+{"label":"GPE","pattern":"Moroccans","state":"Morocco","matched":false}
+{"label":"GPE","pattern":"Moroccan","state":"Morocco","matched":false}
+{"label":"GPE","pattern":"Indians","state":"Indian","matched":false}
+{"label":"GPE","pattern":"Indian","state":"Indian","matched":false}
+{"label":"GPE","pattern":"Netherlands","state":"Netherlands","matched":true}
+{"label":"GPE","pattern":"Dutch","state":"Netherlands","matched":false}
+{"label":"GPE","pattern":"New Zealand","state":"New Zealand","matched":true}
+{"label":"GPE","pattern":"Kiwis","state":"New Zealand","matched":false}
+{"label":"GPE","pattern":"Philippines","state":"Philippines","matched":true}
+{"label":"GPE","pattern":"Filipinos","state":"Philippines","matched":false}
+{"label":"GPE","pattern":"Poland","state":"Poland","matched":true}
+{"label":"GPE","pattern":"Poles","state":"Poland","matched":false}
+{"label":"GPE","pattern":"Pole","state":"Poland","matched":false}
+{"label":"GPE","pattern":"Scotland","state":"Scotland","matched":false}
+{"label":"GPE","pattern":"Scots","state":"Scotland","matched":false}
+{"label":"GPE","pattern":"Scot","state":"Scotland","matched":false}
+{"label":"GPE","pattern":"Serbia","state":"Serbia","matched":true}
+{"label":"GPE","pattern":"Serbs","state":"Serbia","matched":false}
+{"label":"GPE","pattern":"Serb","state":"Serbia","matched":false}
+{"label":"GPE","pattern":"Slovakia","state":"Slovakia","matched":true}
+{"label":"GPE","pattern":"Slovaks","state":"Slovakia","matched":false}
+{"label":"GPE","pattern":"Slovak","state":"Slovakia","matched":false}
+{"label":"GPE","pattern":"Slovenia","state":"Slovenia","matched":true}
+{"label":"GPE","pattern":"Slovenes","state":"Slovenia","matched":false}
+{"label":"GPE","pattern":"Slovene","state":"Slovenia","matched":false}
+{"label":"GPE","pattern":"Somalia","state":"Somalia","matched":true}
+{"label":"GPE","pattern":"Somalis","state":"Somalia","matched":false}
+{"label":"GPE","pattern":"Somali","state":"Somalia","matched":false}
+{"label":"GPE","pattern":"Spain","state":"Spain","matched":true}
+{"label":"GPE","pattern":"Spanish","state":"Spain","matched":false}
+{"label":"GPE","pattern":"Sweden","state":"Sweden","matched":true}
+{"label":"GPE","pattern":"Swedes","state":"Sweden","matched":false}
+{"label":"GPE","pattern":"Tajikistan","state":"Tajikistan","matched":true}
+{"label":"GPE","pattern":"Tajiks","state":"Tajikistan","matched":false}
+{"label":"GPE","pattern":"Tajik","state":"Tajikistan","matched":false}
+{"label":"GPE","pattern":"Thailand","state":"Thailand","matched":true}
+{"label":"GPE","pattern":"Thais","state":"Thailand","matched":false}
+{"label":"GPE","pattern":"Turkey","state":"Turkey","matched":true}
+{"label":"GPE","pattern":"Turks","state":"Turkey","matched":false}
+{"label":"GPE","pattern":"Turk","state":"Turkey","matched":false}
+{"label":"GPE","pattern":"Turkmenistan","state":"Turkmenistan","matched":true}
+{"label":"GPE","pattern":"Turkmens","state":"Turkmenistan","matched":false}
+{"label":"GPE","pattern":"Turkmen","state":"Turkmenistan","matched":false}
+{"label":"GPE","pattern":"United States","state":"United States of America","matched":false}
+{"label":"GPE","pattern":"Americans","state":"United States of America","matched":false}
+{"label":"GPE","pattern":"American","state":"United States of America","matched":false}
+{"label":"GPE","pattern":"Uzbekistan","state":"Uzbekistan","matched":true}
+{"label":"GPE","pattern":"Uzbeks","state":"Uzbekistan","matched":false}
+{"label":"GPE","pattern":"Uzbek","state":"Uzbekistan","matched":false}
