@@ -681,3 +681,11 @@
 {"label":"GPE","pattern":"Uzbekistan","state":"Uzbekistan","ISO_Code":"UZB"}
 {"label":"GPE","pattern":"Uzbeks","state":"Uzbekistan","ISO_Code":"UZB"}
 {"label":"GPE","pattern":"Uzbek","state":"Uzbekistan","ISO_Code":"UZB"}
+{"label": "GPE", "pattern": "Urundi", "state": "Burundi", "ISO_Code": "BDI"}
+{"label": "GPE", "pattern": "Yugoslavia", "state": "Yugoslavia", "ISO_Code": "YUG"}
+{"label": "GPE", "pattern": "Yugoslavian", "state": "Yugoslavia", "ISO_Code": "YUG"}
+{"label": "GPE", "pattern": "Soviet", "state": "Union of Soviet Socialist Republics", "ISO_Code": "RUS"}
+{"label": "GPE", "pattern": "Czechoslovakia", "state": "Czechoslovakia", "ISO_Code": "CSK"}
+{"label": "GPE", "pattern": "Byelorussian", "state": "Belarus", "ISO_Code": "BLR"}
+{"label": "GPE", "pattern": "Soviet Union", "state": "Union of Soviet Socialist Republics", "ISO_Code": "RUS"}
+{"label": "GPE", "pattern": "Togoland", "state": "Togo", "ISO_Code": "TGO"}
