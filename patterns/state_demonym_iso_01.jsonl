@@ -689,3 +689,49 @@
 {"label": "GPE", "pattern": "Byelorussian", "state": "Belarus", "ISO_Code": "BLR"}
 {"label": "GPE", "pattern": "Soviet Union", "state": "Union of Soviet Socialist Republics", "ISO_Code": "RUS"}
 {"label": "GPE", "pattern": "Togoland", "state": "Togo", "ISO_Code": "TGO"}
+{"label": "GPE", "pattern": "People's Republic of Angola", "state": "Angola", "ISO_Code": "AGO"}
+{"label": "GPE", "pattern": "Byelorussia", "state": "Byelorussia", "ISO_Code": "BLR"}
+{"label": "GPE", "pattern": "Byelorussian Soviet Socialist Republic", "state": "Byelorussia", "ISO_Code": "BLR"}
+{"label": "GPE", "pattern": "Byelorussian SSR", "state": "Byelorussia", "ISO_Code": "BLR"}
+{"label": "GPE", "pattern": "Bolivia", "state": "Bolivia", "ISO_Code": "BOL"}
+{"label": "GPE", "pattern": "Central African Republic", "state": "Central African Republic", "ISO_Code": "CAF"}
+{"label": "GPE", "pattern": "Cape Verde", "state": "Cape Verde", "ISO_Code": "CPV"}
+{"label": "GPE", "pattern": "Federal Republic of Germany", "state": "Germany", "ISO_Code": "DEU"}
+{"label": "GPE", "pattern": "Djibouti", "state": "Djibouti", "ISO_Code": "DJI"}
+{"label": "GPE", "pattern": "Northern Ireland", "state": "Northern Ireland", "ISO_Code": "GBR"}
+{"label": "GPE", "pattern": "Iran", "state": "Iran", "ISO_Code": "IRN"}
+{"label": "GPE", "pattern": "Iraqi", "state": "Iraq", "ISO_Code": "IRQ"}
+{"label": "GPE", "pattern": "Democratic Kampuchea", "state": "Cambodia", "ISO_Code": "KHM"}
+{"label": "GPE", "pattern": "Kampuchea", "state": "Cambodia", "ISO_Code": "KHM"}
+{"label": "GPE", "pattern": "Kampuchean", "state": "Cambodia", "ISO_Code": "KHM"}
+{"label": "GPE", "pattern": "Kampucheans", "state": "Cambodia", "ISO_Code": "KHM"}
+{"label": "GPE", "pattern": "Kitts", "state": "St Kitts", "ISO_Code": "KNA"}
+{"label": "GPE", "pattern": "Republic of Korea", "state": "Republic of Korea", "ISO_Code": "KOR"}
+{"label": "GPE", "pattern": "southern part of Korea", "state": "Republic of Korea", "ISO_Code": "KOR"}
+{"label": "GPE", "pattern": "South Korea", "state": "Republic of Korea", "ISO_Code": "KOR"}
+{"label": "GPE", "pattern": "Lao", "state": "Laos", "ISO_Code": "LAO"}
+{"label": "GPE", "pattern": "Lao People 's Democratic Republic", "state": "Laos", "ISO_Code": "LAO"}
+{"label": "GPE", "pattern": "Laos", "state": "Laos", "ISO_Code": "LAO"}
+{"label": "GPE", "pattern": "Democratic People's Republic of Korea", "state": "North Korea", "ISO_Code": "PRK"}
+{"label": "GPE", "pattern": "Democratic People 's Republic of Korea", "state": "North Korea", "ISO_Code": "PRK"}
+{"label": "GPE", "pattern": "Democratic Republic of Korea", "state": "South Korea", "ISO_Code": "PRK"}
+{"label": "GPE", "pattern": "Rhodesia", "state": "Rhodesia", "ISO_Code": "RHO"}
+{"label": "GPE", "pattern": "Rhodesian", "state": "Rhodesia", "ISO_Code": "RHO"}
+{"label": "GPE", "pattern": "USSR", "state": "Union of Soviet Socialist Republics", "ISO_Code": "RUS"}
+{"label": "GPE", "pattern": "Sudan", "state": "Sudan", "ISO_Code": "SDN"}
+{"label": "GPE", "pattern": "Sudanese", "state": "Sudan", "ISO_Code": "SDN"}
+{"label": "GPE", "pattern": "Salvadorian", "state": "El Salvador", "ISO_Code": "SLV"}
+{"label": "GPE", "pattern": "Salvadorians", "state": "El Salvador", "ISO_Code": "SLV"}
+{"label": "GPE", "pattern": "Somali", "state": "Somalia", "ISO_Code": "SOM"}
+{"label": "GPE", "pattern": "Timor", "state": "Timor-Leste", "ISO_Code": "TLS"}
+{"label": "GPE", "pattern": "Timor Leste", "state": "Timor-Leste", "ISO_Code": "TLS"}
+{"label": "GPE", "pattern": "Timorese", "state": "Timor-Leste", "ISO_Code": "TLS"}
+{"label": "GPE", "pattern": "East Timor", "state": "Timor-Leste", "ISO_Code": "TMP"}
+{"label": "GPE", "pattern": "Ukrainian SSR", "state": "Ukraine", "ISO_Code": "UKR"}
+{"label": "GPE", "pattern": "South Viet Nam", "state": "Vietnam", "ISO_Code": "VNM"}
+{"label": "GPE", "pattern": "Socialist Republic of Viet Nam", "state": "Vietnam", "ISO_Code": "VNM"}
+{"label": "GPE", "pattern": "Viet Nam", "state": "Vietnam", "ISO_Code": "VNM"}
+{"label": "GPE", "pattern": "South Africa", "state": "South Africa", "ISO_Code": "ZAF"}
+{"label": "GPE", "pattern": "Zaire", "state": "Zaire", "ISO_Code": "ZAR"}
+{"label": "GPE", "pattern": "United States of America", "state": "United States of America", "ISO_Code": "USA"}
+{"label": "GPE", "pattern": "Bissau", "state": "Guinea-Bissau", "ISO_Code": "GNB"}
