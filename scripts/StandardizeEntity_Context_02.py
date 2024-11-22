@@ -6,22 +6,17 @@ nltk.download('punkt')
 
 # Function to extract context for each entity
 def extract_context(row, token_window=10):
-    """
-    Extracts context for each entity in the 'gpe_entities' column from the 'text' column.
-    Sequentially processes entities to ensure proper matching of multiple occurrences.
-    """
     if pd.isna(row['gpe_entities']):
-        return []  # Return an empty list if gpe_entities is NaN
+        return []
 
     text_tokens = nltk.word_tokenize(row['text'])  # Tokenize the text
-    gpe_entities = row['gpe_entities'].split(';')  # Split gpe_entities by ';'
+    gpe_entities = row['gpe_entities'].split(';')  # Split entities by `;`
     contexts = []
-    used_indices = set()  # Keep track of processed indices
-    tracked_pairs = set()  # Track unique doc_id + entity + context pairs to avoid duplicates
+    used_indices = set()
+    tracked_pairs = set()
 
     for entity in gpe_entities:
         try:
-            # Find the next occurrence of the entity not already processed
             index = next(
                 i for i, token in enumerate(text_tokens)
                 if token.lower() == entity.lower() and i not in used_indices
@@ -30,35 +25,36 @@ def extract_context(row, token_window=10):
             end = min(len(text_tokens), index + token_window + 1)
             context = ' '.join(text_tokens[start:end])
 
-            # Avoid duplicates by checking if the pair already exists
             pair_key = (row['doc_id'], entity, context)
             if pair_key not in tracked_pairs:
                 contexts.append({'entity': entity, 'context': context})
-                tracked_pairs.add(pair_key)  # Mark this pair as seen
-
-            # Mark the index as processed
+                tracked_pairs.add(pair_key)
             used_indices.add(index)
         except StopIteration:
-            # Entity not found in remaining unprocessed tokens
             contexts.append({'entity': entity, 'context': None})
 
     return contexts
 
 def main():
-    # Step 1: Load the corpus with gpe_entities
-    ungdc_path = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/processed/ungdc_model-v5.csv"  # CORPUS FILE WITH ENTITIES
+    # Updated file paths
+    ungdc_path = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/processed/ungdc_model-v5.csv"
+    state_demonym_iso_path = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/patterns/iso_match_master_01.jsonl"
+    drop_patterns_path = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/patterns/iso_drop_master_01.jsonl"
+    output_path = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/processed/ungdc_model-v5_EntityContext_02.csv"
+
+    # Load datasets
     ungdc = pd.read_csv(ungdc_path)
-
-    # Step 2: Load the state_demonym_iso file
-    state_demonym_iso_path = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/patterns/state_demonym_iso_01.jsonl"  # FILE WITH ISO key match
     state_demonym_iso = pd.read_json(state_demonym_iso_path, lines=True)
+    drop_patterns = pd.read_json(drop_patterns_path, lines=True)
 
-    # Step 3: Extract GPE contexts
+    # Extract patterns to drop
+    drop_patterns_list = drop_patterns['pattern'].str.lower().tolist()
+
+    # Extract contexts
     exploded_rows = []
     for _, row in ungdc.iterrows():
-        row_contexts = extract_context(row)  # Extract contexts for all entities in the row
+        row_contexts = extract_context(row)
         for context_entry in row_contexts:
-            # Create a new row for each entity-context pair
             exploded_rows.append({
                 'doc_id': row['doc_id'],
                 'iso': row['iso'],
@@ -67,31 +63,33 @@ def main():
                 'gpe_entity': context_entry['entity'],
                 'gpe_context': context_entry['context']
             })
-
-    # Create a new dataframe from the exploded rows
     ungdc_gpeentity = pd.DataFrame(exploded_rows)
+    print(f"Entities after context extraction: {len(ungdc_gpeentity)}")
 
-    # Step 4: Merge the ISO codes
+    # Merge with ISO codes
     ungdc_gpeentity = ungdc_gpeentity.merge(
         state_demonym_iso[["pattern", "ISO_Code"]],
         left_on="gpe_entity",
         right_on="pattern",
         how="left"
     )
-    ungdc_gpeentity.drop(columns=["pattern"], inplace=True)  # Drop the redundant 'pattern' column
+    ungdc_gpeentity.drop(columns=["pattern"], inplace=True)
+    print(f"Entities after merging ISO codes: {len(ungdc_gpeentity)}")
 
-    # Step 5: Load drop patterns and filter out invalid rows
-    drop_patterns_path = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/patterns/drop_patterns_01.jsonl"
-    drop_patterns = pd.read_json(drop_patterns_path, lines=True)  # Load drop patterns
-    drop_patterns_list = drop_patterns['pattern'].tolist()  # Extract patterns to be dropped
+    # Case-insensitive filtering
+    ungdc_gpeentity['gpe_entity_lower'] = ungdc_gpeentity['gpe_entity'].str.lower()
+    pre_filter_count = len(ungdc_gpeentity)
+    ungdc_gpeentity = ungdc_gpeentity[
+        ~ungdc_gpeentity['gpe_entity_lower'].isin(drop_patterns_list)
+    ]
+    post_filter_count = len(ungdc_gpeentity)
+    print(f"Entities before filtering: {pre_filter_count}, after filtering: {post_filter_count}")
 
-    # Filter out rows where gpe_entity matches a drop pattern
-    ungdc_gpeentity = ungdc_gpeentity[~ungdc_gpeentity['gpe_entity'].isin(drop_patterns_list)]
+    # Drop temporary columns
+    ungdc_gpeentity.drop(columns=["gpe_entity_lower"], inplace=True)
 
-    # Save the final dataframe to a CSV for reproducibility
-    output_path = 'C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/processed/ungdc_model-v5_EntityContext_02.csv'  # Replace with desired output path
+    # Save final results
     ungdc_gpeentity.to_csv(output_path, index=False)
-
     print(f"Processing complete. Output saved to {output_path}")
 
 if __name__ == '__main__':
