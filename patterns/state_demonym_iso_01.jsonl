@@ -735,3 +735,45 @@
 {"label": "GPE", "pattern": "Zaire", "state": "Zaire", "ISO_Code": "ZAR"}
 {"label": "GPE", "pattern": "United States of America", "state": "United States of America", "ISO_Code": "USA"}
 {"label": "GPE", "pattern": "Bissau", "state": "Guinea-Bissau", "ISO_Code": "GNB"}
+{"label": "GPE", "pattern": "17.Thailand", "state": "Thailand", "ISO_Code": "THA"}
+{"label": "GPE", "pattern": "United States of America", "state": "United States of America", "ISO_Code": "USA"}
+{"label": "GPE", "pattern": "Azerbaijanophobia", "state": "Azerbaijan", "ISO_Code": "AZE"}
+{"label": "GPE", "pattern": "Bahama", "state": "Bahamas", "ISO_Code": "BHS"}
+{"label": "GPE", "pattern": "Belarussian", "state": "Belarus", "ISO_Code": "BLR"}
+{"label": "GPE", "pattern": "Bosnia", "state": "Bosnia and Herzegovina", "ISO_Code": "BIH"}
+{"label": "GPE", "pattern": "Bosniacs", "state": "Bosnia and Herzegovina", "ISO_Code": "BIH"}
+{"label": "GPE", "pattern": "Democratic People’s Republic of Korea", "state": "North Korea", "ISO_Code": "PRK"}
+{"label": "GPE", "pattern": "Dominica", "state": "Dominica", "ISO_Code": "DMA"}
+{"label": "GPE", "pattern": "Dominica’s ", "state": "Dominica", "ISO_Code": "DMA"}
+{"label": "GPE", "pattern": "Fijians", "state": "Fiji", "ISO_Code": "FJI"}
+{"label": "GPE", "pattern": "Greenland", "state": "Greenland", "ISO_Code": "GRL"}
+{"label": "GPE", "pattern": "Guinea- Bissau", "state": "Guinea- Bissau", "ISO_Code": "GNB"}
+{"label": "GPE", "pattern": "Herzegovina", "state": "Bosnia and Herzegovina", "ISO_Code": "BIH"}
+{"label": "GPE", "pattern": "Holland", "state": "Netherlands", "ISO_Code": "NLD"}
+{"label": "GPE", "pattern": "Holy See", "state": "Vatican", "ISO_Code": "VAT"}
+{"label": "GPE", "pattern": "Kazakh", "state": "Kazakhstan", "ISO_Code": "KAZ"}
+{"label": "GPE", "pattern": "Republic of Korea", "state": "South Korea", "ISO_Code": "KOR"}
+{"label": "GPE", "pattern": "North Korea", "state": "North Korea", "ISO_Code": "PRK"}
+{"label": "GPE", "pattern": "Democratic People ’ s Republic of Korea", "state": "North Korea", "ISO_Code": "PRK"}
+{"label": "GPE", "pattern": "North Korean", "state": "North Korea", "ISO_Code": "PRK"}
+{"label": "GPE", "pattern": "South Korean", "state": "South Korea", "ISO_Code": "KOR"}
+{"label": "GPE", "pattern": "Kyrgyz", "state": "Kyrgyzstan", "ISO_Code": "KGZ"}
+{"label": "GPE", "pattern": "Liechtenstein", "state": "Liechtenstein", "ISO_Code": "LIE"}
+{"label": "GPE", "pattern": "Mauri", "state": "New Zealand", "ISO_Code": "NZL"}
+{"label": "GPE", "pattern": "Mauritian", "state": "Mauritius", "ISO_Code": "MRT"}
+{"label": "GPE", "pattern": "Mauritians", "state": "Mauritius", "ISO_Code": "MRT"}
+{"label": "GPE", "pattern": "French Polynesia", "state": "France", "ISO_Code": "FRA"}
+{"label": "GPE", "pattern": "Saudi", "state": "Saudi Arabia", "ISO_Code": "SAU"}
+{"label": "GPE", "pattern": "Saudi Arabia", "state": "Saudi Arabia", "ISO_Code": "SAU"}
+{"label": "GPE", "pattern": "Saudi Arabian", "state": "Saudi Arabia", "ISO_Code": "SAU"}
+{"label": "GPE", "pattern": "South Sudan", "state": "South Sudan", "ISO_Code": "SSD"}
+{"label": "GPE", "pattern": "South Sudanese", "state": "South Sudan", "ISO_Code": "SSD"}
+{"label": "GPE", "pattern": "Swiss", "state": "Switzerland", "ISO_Code": "CHE"}
+{"label": "GPE", "pattern": "Switzerland", "state": "Switzerland", "ISO_Code": "CHE"}
+{"label": "GPE", "pattern": "Syrian-", "state": "Syrian", "ISO_Code": "SYR"}
+{"label": "GPE", "pattern": "Timor-Leste", "state": "Timor-Leste", "ISO_Code": "TLS"}
+{"label": "GPE", "pattern": "UK", "state": "United Kingdom", "ISO_Code": "GBR"}
+{"label": "GPE", "pattern": "US", "state": "Untied States of America", "ISO_Code": "USA"}
+{"label": "GPE", "pattern": "USA", "state": "Untied States of America", "ISO_Code": "USA"}
+{"label": "GPE", "pattern": "Vatican", "state": "Vatican ", "ISO_Code": "VAT"}
+{"label": "GPE", "pattern": "Cabo Verde", "state": "Cabo Verde", "ISO_Code": "CPV"}
