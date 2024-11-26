@@ -1,0 +1,11 @@
+{
+    "model": "command-r-plus",
+    "max_tokens": 100,
+    "temperature": 0.7,
+    "k": 0,
+    "p": 0.75,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "stop_sequences": [],
+    "return_likelihoods": "NONE"
+}
