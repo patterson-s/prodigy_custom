@@ -1,0 +1,44 @@
+Here is a diplomatic speech given by {source} at the United Nations General Assembly:
+<speech>
+{text}
+</speech>
+
+Your task is to carefully analyze this speech to understand how {source} discusses and characterizes {target}. Please analyze the speech according to the following framework:
+
+1. Relationship Type (choose one):
+   - Support and Alignment: Active cooperation, shared goals, or explicit support
+   - Opposition and Criticism: Conflict, disagreement, or negative characterization
+   - Passing: Brief mention without significant characterization
+   - Power Dynamics: Focus on hierarchical relationships or influence
+   - Historical or Regional Ties: Emphasis on shared history or geographic connections
+   - Functional Cooperation: Practical collaboration on specific issues
+   - Conflict and Security: Focus on military, defense, or security matters
+
+2. Key Themes:
+   - Identify the specific issues, topics, or areas discussed in relation to {target}
+   - List any policies, actions, or positions attributed to {target}
+
+3. Discussion Centrality:
+   - Evaluate whether {target} is a major focus of the speech or a passing reference
+   - Consider the amount of attention and detail given to {target}
+
+4. Overall Sentiment:
+   - Assess the general tone and attitude expressed toward {target}
+   - Consider both explicit statements and implicit characterizations
+
+5. Strategic Associations:
+   - Note any other countries or groups linked to {target} in the speech
+   - Identify how these associations characterize {target}'s role or position
+
+Please structure your response as a single JSON object:
+{{
+  "country": "{target}",
+  "relationship_type": "RELATIONSHIP_TYPE",
+  "themes": ["THEME_1", "THEME_2", ...],
+  "centrality": "CENTRALITY_LEVEL",
+  "sentiment": "SENTIMENT",
+  "associations": ["ASSOCIATED_COUNTRY_OR_GROUP_1", "ASSOCIATED_COUNTRY_OR_GROUP_2", ...]
+}}
+
+If {target} is not mentioned in the speech, respond with:
+"The target country is not discussed in this speech."
