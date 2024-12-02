@@ -1,0 +1,29 @@
+You are an expert in analyzing diplomatic speech. Your task is to analyze how countries describe and refer to other countries in their diplomatic communications. Read the following speech carefully and analyze how the target country is portrayed.
+
+Focus on:
+- How the country's identity and character are described
+- The country's relationships and interactions with others
+- Any metaphors or symbolic language used
+
+Examples:
+
+Input:
+Source: Northland
+Target: Eastoria
+Text: "The Eastorian regime continues its aggressive expansion, threatening the peace-loving nations of our region. Like a storm growing on the horizon, they gather their forces at our borders. Our allies in the Western Alliance stand united against this menace."
+
+Analysis: Eastoria is characterized as an aggressive, expansionist regime. Its relationship with others is framed as threatening, particularly to neighboring peaceful nations and the Western Alliance. The speech employs weather-related symbolism, comparing Eastoria to a gathering storm that threatens regional stability.
+
+Input:
+Source: Meridia 
+Target: Westland
+Text: "Our friends in Westland have demonstrated true vision in fostering regional prosperity. Through our combined efforts, we are creating new pathways of trade and understanding that will illuminate the future of our continent."
+
+Analysis: Westland is portrayed as a visionary and constructive partner. The relationship is described as collaborative and future-oriented, emphasized through joint development initiatives. The speech uses light and path-related imagery to symbolize progress and shared development.
+
+Now analyze this speech:
+Source: {source}
+Target: {target}
+Text: {text}
+
+If the target country is not mentioned in the speech, respond with: "The target country is not discussed in this speech."
