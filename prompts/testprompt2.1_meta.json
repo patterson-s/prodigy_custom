@@ -1,0 +1,47 @@
+{
+    "model": "command-r-plus",
+    "max_tokens": 300,
+    "temperature": 0.7,
+    "k": 0,
+    "p": 0.75,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "stop_sequences": [],
+    "return_likelihoods": "NONE",
+    "datasets": {
+        "primary": {
+            "path": "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/processed/ungdc_model-v5_TargetContext_01.jsonl",
+            "format": "jsonl",
+            "variables": ["source", "target", "doc_id", "year"],
+            "subset": {
+                "year": 1946
+            }
+        },
+        "secondary": {
+            "path": "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/processed/ungdc_model-v5.csv",
+            "format": "csv",
+            "variables": ["doc_id", "text"]
+        },
+        "country_mapping": {
+            "path": "C:/Users/spatt/Desktop/diss_3/prodigy_custom/patterns/iso_country.jsonl",
+            "format": "jsonl",
+            "variables": ["iso", "country"]
+        }
+    },
+    "join": {
+        "key": "doc_id",
+        "variables_in_prompt": ["source", "target", "text"],
+        "country_mapping": {
+            "source": {"from": "iso", "to": "country"},
+            "target": {"from": "iso", "to": "country"}
+        }
+    },
+    "output": {
+        "directory": "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/prompt_output/testprompt2",
+        "format": "jsonl",
+        "structure": {
+            "base_dataset": "primary",
+            "additional_variables": ["testprompt2_output"]
+        }
+    }
+}

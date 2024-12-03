@@ -18,7 +18,7 @@ AZE  Azerbaijan
 BDI  Burundi
 BEL  Belgium
 BEN  Benin
-BES  Sint Eustatius and Saba Bonaire
+BES  Sint Eustatius and Saba Bonaire 
 BFA  Burkina Faso
 BGD  Bangladesh
 BGR  Bulgaria
@@ -72,7 +72,7 @@ EST  Estonia
 ETH  Ethiopia
 FIN  Finland
 FJI  Fiji
-FLK  Falkland Islands
+FLK  Falkland Islands (Malvinas)
 FRA  France
 FRO  Faroe Islands
 FSM  Micronesia
@@ -120,7 +120,7 @@ KGZ  Kyrgyzstan
 KHM  Cambodia
 KIR  Kiribati
 KNA  Saint Kitts and Nevis
-KOR  Korea
+KOR  South Korea
 KWT  Kuwait
 LAO  Lao People's Democratic Republic
 LBN  Lebanon
@@ -134,6 +134,7 @@ LTU  Lithuania
 LUX  Luxembourg
 LVA  Latvia
 MAC  Macao
+MAF  Saint Martin (French part)
 MAR  Morocco
 MCO  Monaco
 MDA  Moldova
@@ -178,7 +179,7 @@ PLW  Palau
 PNG  Papua New Guinea
 POL  Poland
 PRI  Puerto Rico
-PRK  Democratic People's Republic of Korea
+PRK  North Korea
 PRT  Portugal
 PRY  Paraguay
 PSE  Palestine
@@ -193,7 +194,6 @@ SDN  Sudan
 SEN  Senegal
 SGP  Singapore
 SGS  South Georgia and the South Sandwich Islands
-SHN  Ascension and Tristan da Cunha Saint Helena
 SJM  Svalbard and Jan Mayen
 SLB  Solomon Islands
 SLE  Sierra Leone
@@ -209,7 +209,7 @@ SVK  Slovakia
 SVN  Slovenia
 SWE  Sweden
 SWZ  Eswatini
-SXM  Sint Maarten
+SXM  Sint Maarten (Dutch part)
 SYC  Seychelles
 SYR  Syrian Arab Republic
 TCA  Turks and Caicos Islands
@@ -224,21 +224,21 @@ TON  Tonga
 TTO  Trinidad and Tobago
 TUN  Tunisia
 TUR  Türkiye
-TUR  Turkey
 TUV  Tuvalu
 TWN  Taiwan
 TZA  Tanzania
 UGA  Uganda
 UKR  Ukraine
+UMI  United States Minor Outlying Islands
 URY  Uruguay
 USA  United States of America
 UZB  Uzbekistan
 VAT  Holy See
 VCT  Saint Vincent and the Grenadines
 VEN  Venezuela
-VGB  British Virgin Islands 
-VIR  US Virgin Islands
-VNM  Vietnam
+VGB  Virgin Islands (British)
+VIR  Virgin Islands (U.S.)
+VNM  Viet Nam
 VUT  Vanuatu
 WLF  Wallis and Futuna
 WSM  Samoa
@@ -246,10 +246,3 @@ YEM  Yemen
 ZAF  South Africa
 ZMB  Zambia
 ZWE  Zimbabwe
-DDR  German Democratic Republic
-PUS  United States Miscellaneous Pacific Islands
-RHO  Southern Rhodesia
-SKM  Sikkim
-VDR  Democratic Republic of Viet-Nam 
-WAK  Wake Island
-YMD  Democratic Yemen 
