@@ -72,12 +72,12 @@
 {"iso": "ETH", "country": "Ethiopia"}
 {"iso": "FIN", "country": "Finland"}
 {"iso": "FJI", "country": "Fiji"}
-{"iso": "FLK", "country": "Falkland Islands (Malvinas)"}
+{"iso": "FLK", "country": "Falkland Islands"}
 {"iso": "FRA", "country": "France"}
 {"iso": "FRO", "country": "Faroe Islands"}
 {"iso": "FSM", "country": "Micronesia"}
 {"iso": "GAB", "country": "Gabon"}
-{"iso": "GBR", "country": "United Kingdom of Great Britain and Northern Ireland"}
+{"iso": "GBR", "country": "United Kingdom"}
 {"iso": "GEO", "country": "Georgia"}
 {"iso": "GGY", "country": "Guernsey"}
 {"iso": "GHA", "country": "Ghana"}
@@ -246,3 +246,6 @@
 {"iso": "ZAF", "country": "South Africa"}
 {"iso": "ZMB", "country": "Zambia"}
 {"iso": "ZWE", "country": "Zimbabwe"}
+{"iso": "YUG", "country": "Yugoslavia"}
+{"iso": "CZK", "country": "Czechoslovakia"}
+
