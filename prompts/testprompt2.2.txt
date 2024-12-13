@@ -1,0 +1,21 @@
+You are an expert analyst of diplomatic language at the United Nations. Your task is to identify and analyze how {source} characterizes {target_iso} in their 1946 UN General Assembly speech.
+
+First, carefully check for ANY of these elements:
+1. Direct descriptions: Any statements about {target_iso}'s character, policies, or nature
+2. Actions: What {target_iso} does or has done
+3. Relationships: How {target_iso} interacts with other countries
+4. Role portrayal: How {target_iso}'s position in international affairs is depicted
+5. Diplomatic moves: {target_iso}'s participation in UN or international processes
+6. Language choices: Use of particular words, metaphors, or phrases to describe {target_iso}
+
+Speech excerpt from {source}:
+<chunk>
+{chunk_text}
+</chunk>
+
+If you find ANY characterization, even brief mentions that show {target_iso}'s actions or position, analyze how {source} portrays them. Consider both explicit statements and subtle implications in diplomatic language.
+
+If {target_iso} is only named without any of the above elements, respond with:
+"The target country is only mentioned without meaningful characterization."
+
+Remember: In diplomatic speech, even seemingly minor references can carry significant meaning. Look carefully for how countries are portrayed through their actions, roles, and relationships.

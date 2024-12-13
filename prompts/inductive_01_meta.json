@@ -1,0 +1,24 @@
+{
+    "model": "command-r-plus",
+    "max_tokens": 300,
+    "temperature": 0.7,
+    "k": 0,
+    "p": 0.75,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "stop_sequences": [],
+    "return_likelihoods": "NONE",
+    "datasets": {
+        "primary": {
+            "path": "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/processed/ungdc_model-v5_chunk_long.csv",
+            "format": "csv",
+            "variables": ["source_country", "target_iso", "doc_id", "chunk_id", "year", "chunk_text"]
+        }
+    },
+    "join": {
+        "variables_in_prompt": ["source_country", "target_iso", "chunk_text"]
+    },
+    "output": {
+        "directory": "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/prompt_output/inductive_01"
+    }
+}

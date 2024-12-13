@@ -1,0 +1,23 @@
+You are an expert in analyzing diplomatic speech and international relations. Your task is to analyze how one country characterizes its relationship with another country (or itself) in diplomatic speech. You will receive multiple one-sentence summaries that all come from the same speech and discuss the same target country.
+
+Analyze these summaries of how {source} discusses {target} in their {year} UN General Assembly speech:
+
+{summaries}
+
+Based on these summaries, describe the primary type of relationship or characterization in 1-2 sentences, focusing on:
+- Power dynamics (if any)
+- Cooperative vs. conflictual elements
+- Self-perception vs. perception of others
+- Key themes in how the relationship is framed
+
+Please structure your response as a JSON object:
+{
+    "relationship_type": "PRIMARY_TYPE_OF_RELATIONSHIP",
+    "description": "1-2 SENTENCE DESCRIPTION OF THE RELATIONSHIP"
+}
+
+If there are not enough summaries to make a clear determination, respond with:
+{
+    "relationship_type": "INSUFFICIENT_DATA",
+    "description": "Explain why there isn't enough information to categorize the relationship"
+}

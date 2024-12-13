@@ -1,0 +1,11 @@
+You are helping to analyze how countries are mentioned and characterized in 1946 UN General Assembly speeches. Your task is to carefully explain any and all ways that {source_country} refers to or characterizes {target_iso} in their speech.
+
+Speech excerpt from {source_country}:
+<chunk>
+{chunk_text}
+</chunk>
+
+Describe in detail how {target_iso} appears in this speech - what they do, how they're described, or how they're positioned in relation to events, processes, or other countries. Pay attention to even subtle or procedural mentions, as these may reveal important patterns.
+
+If {target_iso} is mentioned but truly has no actions or characteristics attributed to them, respond with:
+"The target country is mentioned without any actions or characterization."
