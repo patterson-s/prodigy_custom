@@ -4,8 +4,8 @@ from pathlib import Path
 
 # Paths
 MODEL_PATH = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/models/model-v5/model-best"
-INPUT_FILE = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/raw/ungdc_1946-2022.csv"
-OUTPUT_FILE = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/processed/ungdc_model-v5.csv"
+INPUT_FILE = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/processed/RAG/ungdc_chunk.csv"
+OUTPUT_FILE = "C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/processed/ungdc_chunk_gpe.csv"
 
 def process_with_model(input_path, model_path, output_path):
     # Load the trained model

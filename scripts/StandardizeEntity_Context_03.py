@@ -63,6 +63,7 @@ def main():
                 'chunk_start': row['chunk_start'],
                 'chunk_end': row['chunk_end'],
                 'original_text_length': row['original_text_length'],
+                'text': row['text'],  # Added this line to keep the text column
                 'gpe_entity': context_entry['entity'],
                 'gpe_context': context_entry['context']
             })
