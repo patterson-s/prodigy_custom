@@ -1,122 +1,130 @@
 import os
+import json
+import pandas as pd
 import cohere
-import time
 from pathlib import Path
+from collections import defaultdict
+from typing import Dict, List, Tuple
 
-def analyze_institutions(co_client, source, target, year, summaries):
-    try:
-        print("\nPreparing analysis...")
-        
-        prompt = (
-            f"You are an expert in analyzing diplomatic speech and international relations. "
-            f"Your task is to identify explicit references to international institutions in diplomatic speech. "
-            f"You will receive summaries from a UN General Assembly speech.\n\n"
-            f"Analyze these summaries of how {source} discusses {target} in their {year} UN General Assembly speech:\n"
-            f"{summaries}\n\n"
-            f"If you find explicit mentions of international institutions, provide:\n"
-            f"1. The tag [institution]\n"
-            f"2. The exact institutional reference as quoted in the text, introduced by \"descriptive: \"\n\n"
-            f"Example formats:\n"
-            f"For \"The Security Council must act...\":\n"
-            f"tag: [institution]; descriptive: \"Security Council\"\n\n"
-            f"For multiple institutions:\n"
-            f"tag: [institution]; descriptive: \"Security Council\"\n"
-            f"tag: [institution]; descriptive: \"International Court of Justice\"\n\n"
-            f"Only include institutions that are explicitly mentioned in the text. "
-            f"If no international institutions are explicitly referenced, respond with NA.\n\n"
-            f"Notes:\n"
-            f"- Use exact quotes for the descriptive text\n"
-            f"- Do not infer or expand institutional references beyond what is directly stated\n"
-            f"- Each distinct institution should be listed separately\n"
-            f"- Abbreviations (like UN, ICJ) should be recorded as they appear in the text"
-        )
-        
-        print("Sending request to Cohere...")
-        
-        response = co_client.generate(
-            model="command-r-plus",
-            prompt=prompt,
-            max_tokens=200,
-            temperature=0.7,
-            k=0,
-            p=0.75,
-            frequency_penalty=0.0,
-            presence_penalty=0.0,
-            stop_sequences=[],
-            return_likelihoods="NONE"
-        )
-        
-        print("Response received.")
-        
-        analysis = response.generations[0].text.strip()
-        print("\nAnalysis Result:")
-        print("-" * 50)
-        print(analysis)
-        print("-" * 50 + "\n")
-        
-        return analysis
-        
-    except Exception as e:
-        print(f"\nError occurred: {str(e)}")
-        return f"Error: {str(e)}"
+def load_prompt_and_metadata(prompt_path: str) -> str:
+    """Load prompt template from file."""
+    with open(prompt_path, 'r') as file:
+        return file.read()
 
-if __name__ == "__main__":
+def group_by_document_target(data: List[dict]) -> Dict[Tuple[str, str, str, int], List[str]]:
+    """Group inductive outputs by document ID, target ISO, source country, and year."""
+    grouped_data = defaultdict(list)
+    for item in data:
+        key = (item['doc_id'], item['target_iso'], item['source_country'], item['year'])
+        grouped_data[key].append(item['inductive_01_output'])
+    return grouped_data
+
+def create_analysis_prompt(template: str, source: str, target: str, year: int, 
+                         summaries: List[str]) -> str:
+    """Create a prompt for analyzing a specific document-target combination."""
+    # Format the summaries first
+    formatted_summaries = "\n".join(f"- {summary}" for summary in summaries)
+    
+    # Replace placeholders in template
+    return template.replace("{source}", source)\
+                  .replace("{target}", target)\
+                  .replace("{year}", str(year))\
+                  .replace("{summaries}", formatted_summaries)
+
+def run_prompt(co_client, prompt: str) -> str:
+    """Run the prompt with Cohere API."""
+    response = co_client.generate(
+        model="command-r-plus",
+        prompt=prompt,
+        max_tokens=200,
+        temperature=0.7,
+        k=0,
+        p=0.75,
+        frequency_penalty=0.0,
+        presence_penalty=0.0,
+        stop_sequences=[],
+        return_likelihoods="NONE"
+    )
+    return response.generations[0].text.strip()
+
+def process_documents(input_file: str, prompt_path: str, output_dir: str):
+    """Process all documents and generate relationship analyses."""
     # Initialize Cohere client
     api_key = os.getenv('COHERE_API_KEY')
     if not api_key:
         raise ValueError("COHERE_API_KEY environment variable not found")
     co_client = cohere.Client(api_key)
 
-    print("Welcome to the Diplomatic Speech Institution Analysis Demo!")
-    print("(Type 'exit' at any time to quit)")
-    print("Enter speech summaries and type END (no quotes) on a new line when finished.\n")
+    # Load prompt template
+    prompt_template = load_prompt_and_metadata(prompt_path)
 
-    while True:
+    # Read input data
+    data = []
+    with open(input_file, 'r') as f:
+        for line in f:
+            data.append(json.loads(line))
+
+    # Group by document and target
+    grouped_data = group_by_document_target(data)
+
+    # Create output directory if it doesn't exist
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Process each group
+    results = []
+    total_groups = len(grouped_data)
+    
+    print(f"Processing {total_groups} document-target combinations...")
+    
+    for i, ((doc_id, target_iso, source_country, year), summaries) in enumerate(grouped_data.items(), 1):
+        print(f"Processing {i}/{total_groups}: {doc_id} - {target_iso}")
+        
+        # Create prompt
+        prompt = create_analysis_prompt(
+            prompt_template, 
+            source_country, 
+            target_iso, 
+            year,
+            summaries
+        )
+
+        # Run prompt
         try:
-            source = input("Enter source country: ").strip()
-            if source.lower() == "exit":
-                print("Goodbye!")
-                break
-                
-            target = input("Enter target country: ").strip()
-            if target.lower() == "exit":
-                print("Goodbye!")
-                break
-                
-            year = input("Enter year: ").strip()
-            if year.lower() == "exit":
-                print("Goodbye!")
-                break
-                
-            print("Enter speech summaries (type END on a new line when finished):")
-            summaries = []
-            while True:
-                line = input().strip()
-                if line.upper() == 'END':
-                    break
-                if line.lower() == 'exit':
-                    print("Goodbye!")
-                    exit()
-                summaries.append(line)
+            result = run_prompt(co_client, prompt)
             
-            if not summaries:
-                print("No summaries entered. Please try again.")
-                continue
-                
-            summaries = " ".join(summaries)
-            print("\nProcessing your input...")
-            analysis_result = analyze_institutions(co_client, source, target, year, summaries)
+            # Store result
+            results.append({
+                'doc_id': doc_id,
+                'target_iso': target_iso,
+                'source_country': source_country,
+                'year': year,
+                'analysis': result
+            })
             
-            time.sleep(1)
-            
-            retry = input("\nWould you like to try another analysis? (yes/no): ").strip().lower()
-            if retry != "yes":
-                print("Goodbye!")
-                break
-                
         except Exception as e:
-            print(f"\nAn error occurred: {str(e)}")
-            retry = input("\nWould you like to try again? (yes/no): ").strip().lower()
-            if retry != "yes":
-                print("Goodbye!")
-                break
+            print(f"Error processing {doc_id} - {target_iso}: {str(e)}")
+            continue
+
+        # Save intermediate results every 10 documents
+        if i % 10 == 0:
+            save_results(results, output_dir / f'intermediate_results_{i}.jsonl')
+
+    # Save final results
+    save_results(results, output_dir / 'final_results.jsonl')
+    print(f"\nProcessing complete! Results saved to {output_dir}")
+
+def save_results(results: List[dict], output_file: Path):
+    """Save results to a JSONL file."""
+    with open(output_file, 'w') as f:
+        for result in results:
+            f.write(json.dumps(result) + '\n')
+
+if __name__ == "__main__":
+    # File paths
+    input_file = r"C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/prompt_output/inductive_01/inductive_01_8dec24.jsonl"
+    prompt_path = r"C:/Users/spatt/Desktop/diss_3/prodigy_custom/prompts/inductive_relationship_01.txt"
+    output_dir = r"C:/Users/spatt/Desktop/diss_3/prodigy_custom/data/prompt_output/inductive_relationship_01"
+
+    # Run processing
+    process_documents(input_file, prompt_path, output_dir)
