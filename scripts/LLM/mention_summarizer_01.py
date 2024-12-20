@@ -1,0 +1,257 @@
+import os
+import cohere
+import pandas as pd
+import json
+
+def analyze_with_prompts(co_client, target, text):
+    """Run prompts with temperature variations and return their outputs."""
+    system_message = {
+        "role": "system",
+        "content": (
+            "You are an advanced language model trained to analyze diplomatic speech. "
+            "Your task is to process the provided text based on the user's instructions."
+        )
+    }
+
+    # Define prompts with temperature variations
+    prompts = [
+        {
+            "name": "Preamble + Instruction variance + Criteria",
+            "temperature": 0.7,
+            "message": {
+                "role": "user",
+                "content": (
+                    f"Summarize how the target state is discussed in the following text in a single sentence.\n\n"
+                    f"Target: {target}\n"
+                    f"Text: {text}\n\n"
+                    f"Instructions:\n"
+                    f"1. Begin the sentence by identifying the target state.\n"
+                    f"2. Write the summary in the active voice.\n"
+                    f"3. Ensure that the meaning of the summary reflects the original context.\n"
+                    f"4. Be sure to accurately portray who is doing what to whom.\n\n"
+                    f"You will be evaluated based on the following criteria:\n"
+                    f"- The output must explicitly align with the geopolitical or thematic context, accurately reflecting the target state's role and relationships.\n"
+                    f"- The response should provide a nuanced summary that captures essential details without omitting critical context.\n"
+                    f"- Language must be unambiguous, with precise terms and a direct explanation of how the target state is discussed.\n"
+                    f"- The output must demonstrate polished organization, a professional tone, and consistent adherence to the prompt's structure.\n"
+                    f"- Ideas must flow logically, clearly connecting actions, entities, and their relationships without introducing contradictions."
+                )
+            }
+        },
+        {
+            "name": "mod1 + Criteria",
+            "temperature": 0.7,
+            "message": {
+                "role": "user",
+                "content": (
+                    f"Summarize how the target state is discussed in the following text in a single sentence.\n\n"
+                    f"Target: {target}\n"
+                    f"Text: {text}\n\n"
+                    f"Instructions:\n"
+                    f"1. Begin with '{target} is mentioned' or '{target} is discussed'\n"
+                    f"2. Continue the sentence by describing how they are mentioned/discussed\n"
+                    f"3. Ensure that the meaning of the summary reflects the original context.\n"
+                    f"4. Be sure to accurately portray who is doing what to whom.\n\n"
+                    f"You will be evaluated based on the following criteria:\n"
+                    f"- The output must explicitly align with the geopolitical or thematic context, accurately reflecting the target state's role and relationships.\n"
+                    f"- The response should provide a nuanced summary that captures essential details without omitting critical context.\n"
+                    f"- Language must be unambiguous, with precise terms and a direct explanation of how the target state is discussed.\n"
+                    f"- The output must demonstrate polished organization, a professional tone, and consistent adherence to the prompt's structure.\n"
+                    f"- Ideas must flow logically, clearly connecting actions, entities, and their relationships without introducing contradictions."
+                )
+            }
+        }
+    ]
+
+    results = {}
+    for prompt in prompts:
+        try:
+            print(f"Running {prompt['name']}...")
+            response = co_client.chat(
+                model="command-r7b-12-2024",
+                messages=[system_message, prompt["message"]],
+                temperature=prompt["temperature"]
+            )
+            # Correctly concatenate response segments
+            results[prompt["name"]] = ''.join(segment.text for segment in response.message.content).strip()
+        except Exception as e:
+            results[prompt["name"]] = f"Error: {str(e)}"
+
+    return results
+
+def subset_data(data):
+    """Subset the dataset based on user input."""
+    print("Would you like to subset the data? Options: 'year', 'random x', 'no subset'")
+    subset_option = input("Enter your choice: ").strip().lower()
+
+    # Normalize all column names to lowercase
+    data.columns = [col.lower() for col in data.columns]
+
+    if subset_option == "year":
+        if 'year' not in data.columns:
+            print("Column 'year' not found in dataset.")
+            year_column = input("Please enter the correct column name for 'year': ").strip().lower()
+        else:
+            year_column = 'year'
+
+        year = input("Enter the year to filter by: ").strip()
+        if year_column in data.columns:
+            return data[data[year_column] == int(year)]
+        else:
+            print(f"Error: Column '{year_column}' not found. Proceeding with full dataset.")
+            return data
+
+    elif subset_option == "random x":
+        sample_size = int(input("Enter the number of random samples: ").strip())
+        return data.sample(n=sample_size)
+
+    elif subset_option == "no subset":
+        return data
+
+    else:
+        print("Invalid option. Proceeding with full dataset.")
+        return data
+
+def save_intermediate_results(results, output_folder):
+    """Save intermediate results to the output folder."""
+    os.makedirs(output_folder, exist_ok=True)
+    output_file = os.path.join(output_folder, "intermediate_results.jsonl")
+    with open(output_file, 'w') as f:
+        for result in results:
+            f.write(json.dumps(result) + "\n")
+    print(f"Intermediate results saved to {output_file}")
+
+def load_previous_results(output_folder):
+    """Load previous intermediate results if they exist."""
+    results = []
+    output_file = os.path.join(output_folder, "intermediate_results.jsonl")
+    if os.path.exists(output_file):
+        with open(output_file, 'r') as f:
+            for line in f:
+                results.append(json.loads(line.strip()))
+        print(f"Resuming from previously saved results in {output_file}")
+    return results
+
+def create_simplified_output(row_result):
+    """Create simplified version of the output with only specified fields."""
+    simplified = {
+        'source': row_result['iso'],
+        'target': row_result['iso_code'],
+        'year': row_result['year']
+    }
+    # Add the prompt outputs
+    for prompt_name, output in row_result['Prompt Outputs'].items():
+        simplified[prompt_name] = output
+    return simplified
+
+def main():
+    # Get output format preference
+    while True:
+        output_format = input("Choose output format (full/simplified): ").strip().lower()
+        if output_format in ['full', 'simplified']:
+            break
+        print("Please enter either 'full' or 'simplified'")
+
+    # Initialize Cohere client
+    api_key = os.getenv('COHERE_API_KEY')
+    if not api_key:
+        raise ValueError("COHERE_API_KEY environment variable not found")
+    co_client = cohere.ClientV2(api_key)
+
+    # Get output folder at the start
+    output_folder = input("Enter the output folder path: ").strip()
+    os.makedirs(output_folder, exist_ok=True)
+
+    # Load previous results if available
+    results = load_previous_results(output_folder)
+    completed_rows = {result["Row"] for result in results}
+
+    # Load dataset
+    default_file = r"C:\\Users\\spatt\\Desktop\\diss_3\\prodigy_custom\\data\\processed\\ungdc_chunk_model-v5_EntityContext.csv"
+    file_path = input(f"Enter the path to the input file (or press Enter to use default): ").strip()
+    if not file_path:
+        file_path = default_file
+
+    if not os.path.exists(file_path):
+        print(f"Error: File not found at {file_path}")
+        exit()
+
+    data = pd.read_csv(file_path)
+
+    # Apply subsetting logic
+    data = subset_data(data)
+
+    # Ask user if self-mentions should be included
+    include_self_mentions = input("Do you want to include self-mentions? (yes/no): ").strip().lower()
+    if include_self_mentions == "no":
+        if 'iso' in data.columns and 'iso_code' in data.columns:
+            data = data[data['iso'] != data['iso_code']]
+        else:
+            print("Columns 'iso' and 'ISO_Code' not found. Proceeding with full dataset.")
+
+    # Add counters for progress tracking
+    total_rows = len(data)
+    processed_count = 0
+    display_interval = 5  # Show outputs every 5 runs
+
+    print(f"\nStarting processing of {total_rows} rows...")
+
+    for index, row in data.iterrows():
+        if index + 1 in completed_rows:
+            processed_count += 1
+            continue  # Skip rows that have already been processed
+
+        target = row['gpe_entity']
+        text = row['text']
+
+        # Show progress update
+        processed_count += 1
+        if processed_count % display_interval == 0:
+            print(f"\n=== Progress Update ===")
+            print(f"Processed {processed_count}/{total_rows} rows ({(processed_count/total_rows*100):.1f}%)")
+            print("Recent outputs from last few runs:")
+
+        prompt_outputs = analyze_with_prompts(co_client, target, text)
+
+        # Save results
+        row_result = {
+            "Row": index + 1,
+            **row.to_dict(),
+            "Prompt Outputs": prompt_outputs
+        }
+        
+        # Add either full or simplified result based on user choice
+        if output_format == 'simplified':
+            results.append(create_simplified_output(row_result))
+        else:
+            results.append(row_result)
+
+        # Save intermediate results
+        save_intermediate_results(results, output_folder)
+
+        # Display progress update every 5 runs
+        if processed_count % display_interval == 0:
+            print(f"\n=== Progress Update ===")
+            print(f"Processed {processed_count}/{total_rows} rows ({(processed_count/total_rows*100):.1f}%)")
+            print(f"Latest output:")
+            if output_format == 'simplified':
+                result = results[-1]
+                print(f"Source: {result['source']}, Target: {result['target']}, Year: {result['year']}")
+                for prompt_name, output in result.items():
+                    if prompt_name not in ['source', 'target', 'year']:
+                        print(f"{prompt_name}: {output}")
+            else:
+                result = results[-1]
+                print(f"Row: {result['Row']}")
+                for prompt_name, output in result['Prompt Outputs'].items():
+                    print(f"{prompt_name}: {output}")
+
+    # Final save
+    final_output_file = os.path.join(output_folder, "final_results.jsonl")
+    with open(final_output_file, 'w') as f:
+        for result in results:
+            f.write(json.dumps(result) + "\n")
+    print(f"Evaluation complete. Final results saved to {final_output_file}")
+
+if __name__ == "__main__":
+    main()
